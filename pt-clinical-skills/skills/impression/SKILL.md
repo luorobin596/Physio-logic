@@ -5,7 +5,7 @@ description: Synthesize physical therapy subjective and objective evidence into 
 
 # Impression
 
-Read [clinical contract](references/clinical-contract.md), [stage routing](references/stage-routing.md) and [template selection](references/template-selection.md). Accept traceable original assessment data or a stage handoff. Do not assume tests occurred because a prior narrative mentions a diagnostic label.
+Read [clinical contract](../../references/clinical-contract.md), [stage routing](../../references/stage-routing.md) and [template selection](references/template-selection.md). Accept traceable original assessment data or a stage handoff. Do not assume tests occurred because a prior narrative mentions a diagnostic label.
 
 1. Check case scope, data version, facts, prior hypotheses, support/opposition and unresolved issues. If only subjective data exist, explicitly limit the synthesis; never present it as objectively verified. Prioritize potentially urgent concerns over routine table completion.
 2. Read [Table 4](assets/table-4.md). Preserve Item/Content and every row. Distinguish a primary working explanation from secondary/contributing regions, functional limitations, pain descriptors and OPEN contributing factors. Uncertain entries remain unknown. Keep the Impression cell concise.
@@ -16,4 +16,4 @@ Read [clinical contract](references/clinical-contract.md), [stage routing](refer
 
 End at Impression and relevant additional-assessment questions. No exercise dosage, treatment plan, medication or automatic medical-record writeback.
 
-When interpreting pain descriptors, consult the local [pain-mechanism guide](references/pain-mechanisms.md).
+When interpreting pain descriptors, consult the shared [pain-mechanism guide](../../references/pain-mechanisms.md).

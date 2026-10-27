@@ -1,6 +1,6 @@
 # Historical discussion catalog — qualified adaptation
 
-Read only for relevant candidate ideas. The lists below come from pain mechanism.pdf; they are not validated subtypes, diagnostic rules or default case findings. Disease labels do not automatically determine a mechanism. Apply pain-mechanisms.md and the clinical contract first. Original page numbers are preserved as source locators; original examples are archived separately. Formal criteria and each method's evidence must be checked before using them. The nociplastic heading/definition has been corrected under R01; other historical list entries remain candidates with unverified detail.
+Read only for relevant candidate ideas. The lists below come from pain mechanism.pdf; they are not validated subtypes, diagnostic rules or default case findings. Disease labels do not automatically determine a mechanism. Apply the [pain-mechanism guide](pain-mechanisms.md) and [clinical contract](clinical-contract.md) first. Original page numbers are preserved as source locators; original examples are archived separately. Formal criteria and each method's evidence must be checked before using them. The nociplastic heading/definition has been corrected under R01; other historical list entries remain candidates with unverified detail.
 
 ## Source page 1
 

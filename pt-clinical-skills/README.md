@@ -28,6 +28,27 @@ Approved support labels: ★★★ Strong, ★★ Moderate, ★ Low, − Current
 
 The workflow ends at Impression and related clarification/assessment questions. It does not provide unrequested treatment plans or exercise dosage. Source examples are not default patient findings.
 
+## Shared references and installation
+
+Keep the complete `pt-clinical-skills/` plugin directory when installing or copying this package. Copying only `skills/<name>/` omits required shared references; standalone per-skill copies are not supported by this source layout. A future per-skill distribution must bundle the shared resources and rewrite its links before installation.
+
+```text
+pt-clinical-skills/
+├── references/                      # Shared across stages
+│   ├── clinical-contract.md
+│   ├── stage-routing.md
+│   ├── pain-mechanisms.md
+│   └── pain-discussion-catalog.md
+└── skills/
+    ├── subjective-analysis/          # SKILL.md + local assets/
+    ├── objective-analysis/           # SKILL.md + local assets/
+    └── impression/                   # SKILL.md + local assets/
+        └── references/
+            └── template-selection.md
+```
+
+All three skills link to the shared [clinical contract](references/clinical-contract.md), [stage routing](references/stage-routing.md) and [pain-mechanism guide](references/pain-mechanisms.md). The [historical discussion catalog](references/pain-discussion-catalog.md) is available when relevant; subjective synthesis links to it explicitly. Store cross-stage guidance once in root `references/`; keep guidance specific to one skill in that skill's `references/`. Output templates remain in each skill's `assets/`.
+
 ## Try a reviewable example
 
 Read [synthetic complete input](evals/inputs/complete-case.md) alongside the [complete reference output](evals/results/complete-case-output.md). The output is an authored same-agent walkthrough, not an independently measured model result. [Legacy case mapping](examples/legacy-case-mapped.md) illustrates the source's three/five-column migration and provenance limitations.
@@ -41,7 +62,7 @@ python3 scripts/validate_package.py
 python3 scripts/validate_package.py --output evals/results/complete-case-output.md --mode complete
 ```
 
-The validator uses Python's standard library and checks package identity, source hashes, skill links, local reference consistency, table headers/base rows and selected output invariants. It does not prove clinical correctness, actual skill discovery, or model behavior. [Behavioral cases](evals/cases.md), [rubric](evals/rubric.md) and [recorded results](evals/results/validation-report.md) specify the remaining review.
+The validator uses Python's standard library and checks package identity, source hashes, skill links, shared and skill-specific resource links, table headers/base rows and selected output invariants. It does not prove clinical correctness, actual skill discovery, or model behavior. [Behavioral cases](evals/cases.md), [rubric](evals/rubric.md) and [recorded results](evals/results/validation-report.md) specify the remaining review.
 
 ## Platforms
 

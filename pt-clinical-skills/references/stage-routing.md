@@ -1,6 +1,6 @@
 # Stage routing and continuity
 
-Use only resources within the skill being executed. Each skill is independently usable when its required case context is available. Another skill's files are never required for a normal single-stage request.
+Use the shared references at the plugin root and the assets or dedicated references within the skill being executed. Keep the complete plugin directory structure when installing or copying these skills; a skill folder alone omits required shared resources. Each stage can be used directly when its required case context is available, without running another stage first. Another skill's files are never required for a normal single-stage request.
 
 ## Default staged route
 

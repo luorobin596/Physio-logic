@@ -1,11 +1,11 @@
 ---
 name: subjective-analysis
-description: Analyze physical therapy subjective history using fixed symptom tables, a history timeline and preliminary clinical hypotheses. Use for symptom/history analysis or the subjective stage of a complete assessment; not for literature appraisal.
+description: Analyze physical therapy subjective history using fixed symptom tables, a history timeline and preliminary clinical hypotheses. Use for symptom/history analysis or the subjective stage of a complete assessment.
 ---
 
 # Subjective analysis
 
-Read [clinical contract](references/clinical-contract.md) and [stage routing](references/stage-routing.md) when starting this workflow. Runtime outputs default to English. This skill owns Tables 1.1, 1.2, 2.1 and 2.2; Table 2 is preliminary subjective synthesis, not an objectively confirmed final Impression.
+Read [clinical contract](../../references/clinical-contract.md) and [stage routing](../../references/stage-routing.md) when starting this workflow. This skill owns Tables 1.1, 1.2, 2.1 and 2.2; Table 2 is preliminary subjective synthesis, not an objectively confirmed final Impression.
 
 ## First subjective step
 
@@ -16,7 +16,7 @@ Read [clinical contract](references/clinical-contract.md) and [stage routing](re
 
 ## Subjective synthesis step
 
-1. Read [pain-mechanism guide](references/pain-mechanisms.md) when interpreting mechanisms; consult [discussion catalog](references/pain-discussion-catalog.md) only when relevant, with its evidence limits.
+1. Read [pain-mechanism guide](../../references/pain-mechanisms.md) when interpreting mechanisms; consult [discussion catalog](../../references/pain-discussion-catalog.md) only when relevant, with its evidence limits.
 2. Fill [Table 2.1](assets/table-2-1.md). Preserve Item/Content and all rows, including SEPARATE Symptoms Stage and Irritability. Stage describes reported duration/course; irritability considers provocation, response and settling. Do not infer either from the other or solely from a pain score. Contributing factors remains open to all case-supported factors.
 3. Fill [Table 2.2](assets/table-2-2.md) using only reported events/times, preserving the exact History timeline-S title. Do not invent earlier history or a fixed number of events.
 4. Outside the tables, include exactly these two named lists, with as many material items as needed rather than a fixed quota:

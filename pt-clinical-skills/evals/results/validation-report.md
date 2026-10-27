@@ -44,3 +44,7 @@ python3 scripts/validate_package.py --output evals/results/complete-case-output.
 ## Next host acceptance
 
 Load/install by the host's supported route, verify all three skill names are available, then run cases.json using the rubric and record full outputs with host/version/model. Test staged multi-turn and explicit combined requests separately, including user language requests and data correction. Independent professional review and real therapist operation remain separate acceptance steps.
+
+## Shared-reference layout update (2026-10-27)
+
+The original local-reference result above describes the previous self-contained skill layout. Shared clinical contract, stage routing, pain mechanisms and discussion catalog now live in root `references/`; only Impression template selection remains skill-specific. Current structural validation checks shared/local links, package boundaries and absence of duplicate shared resources. Installation must retain the complete plugin tree; isolated skill-folder copying is unsupported. Host discovery and model behavior have not been revalidated by this layout change.

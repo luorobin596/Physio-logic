@@ -8,6 +8,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ('subjective-analysis', 'objective-analysis', 'impression')
+SHARED_REFERENCES = ('clinical-contract.md', 'stage-routing.md',
+                     'pain-mechanisms.md', 'pain-discussion-catalog.md')
 TITLES = {
     'table-1-1': 'Subjective Table 1.1',
     'table-1-2': 'Subjective Table 1.2',
@@ -111,12 +113,19 @@ def validate_package():
             for target in re.findall(r'\]\(([^)]+)\)', body):
                 if '://' not in target:
                     resolved = (path.parent / target.split('#')[0]).resolve()
-                    require(resolved.is_file() and resolved.is_relative_to(base.resolve()),
-                            f'{path}: missing or cross-skill resource {target}')
-    for resource in ['clinical-contract.md', 'stage-routing.md', 'pain-mechanisms.md']:
-        hashes = {hashlib.sha256((ROOT / 'skills' / s / 'references' / resource).read_bytes()).hexdigest()
-                  for s in SKILLS}
-        require(len(hashes) == 1, f'Self-contained copies drifted: {resource}')
+                    allowed = (base.resolve(), (ROOT / 'references').resolve())
+                    require(resolved.is_file() and any(resolved.is_relative_to(p) for p in allowed),
+                            f'{path}: missing or out-of-scope resource {target}')
+    for resource in SHARED_REFERENCES:
+        require((ROOT / 'references' / resource).is_file(), f'Missing shared reference: {resource}')
+        require(not list((ROOT / 'skills').glob(f'*/references/{resource}')),
+                f'Shared reference duplicated inside a skill: {resource}')
+    for path in (ROOT / 'references').rglob('*.md'):
+        for target in re.findall(r'\]\(([^)]+)\)', path.read_text()):
+            if '://' not in target:
+                resolved = (path.parent / target.split('#')[0]).resolve()
+                require(resolved.is_file() and resolved.is_relative_to(ROOT.resolve()),
+                        f'{path}: missing or outside-package resource {target}')
     manifests = [json.loads((ROOT / p).read_text()) for p in
                  ['plugin.json', '.codex-plugin/plugin.json', '.claude-plugin/plugin.json']]
     require(len({(m['name'], m['version']) for m in manifests}) == 1, 'Manifest identity/version drift')
@@ -174,7 +183,7 @@ def main():
         count = validate_output(args.output, args.mode, args.symptoms, contract)
         print(f'PASS: package integrity and {count} fixed tables in {args.output}')
     else:
-        print('PASS: three skills, seven templates, local links, reference consistency, manifests and source hashes')
+        print('PASS: three skills, seven templates, shared/local resource links, manifests and source hashes')
     print('Limit: this validates structure and provenance, not clinical correctness, skill discovery or model behavior.')
 
 if __name__ == '__main__':

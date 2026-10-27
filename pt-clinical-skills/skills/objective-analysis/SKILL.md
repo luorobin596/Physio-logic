@@ -5,7 +5,7 @@ description: Compare physical therapy objective findings with clinical hypothese
 
 # Objective analysis
 
-Read [clinical contract](references/clinical-contract.md) and [stage routing](references/stage-routing.md). Accept original assessment data or an existing subjective handoff; do not require a prior skill when equivalent context is already supplied.
+Read [clinical contract](../../references/clinical-contract.md) and [stage routing](../../references/stage-routing.md). Accept original assessment data or an existing subjective handoff; do not require a prior skill when equivalent context is already supplied.
 
 1. Separate measurements, observations, patient reports and prior interpretations. Preserve units, side, time and test conditions. List unavailable subjective context and contradictions instead of inventing them.
 2. Read [Table 3.1](assets/table-3-1.md). Preserve all five columns and the 13 original rows in order: Bone, Cartilage, Capsule, Ligament, Tendon, Muscle, Fascia, Nerve, Vessel, Bursa, Fat, Skin, Viscus. Append case-relevant additional classes when needed, without deleting/reordering base rows or forcing Joint/Disc into an unreliable mapping.
@@ -18,4 +18,4 @@ Read [clinical contract](references/clinical-contract.md) and [stage routing](re
 
 Do not mistake missing sensory/neurodynamic findings for negatives. Possible neural involvement and suspected neural mechanosensitivity are not automatically neuropathic pain. Breathing response, posture, a fascial pathway or isolated provocative finding does not establish a specific causal lesion. Check method/source and population applicability when recommending a test; uncertain methods remain uncertain. Source examples' ratings are not defaults.
 
-When interpreting pain descriptors, consult the local [pain-mechanism guide](references/pain-mechanisms.md).
+When interpreting pain descriptors, consult the shared [pain-mechanism guide](../../references/pain-mechanisms.md).
