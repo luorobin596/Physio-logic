@@ -1,0 +1,8 @@
+{
+  "name": "pt-clinical-skills",
+  "version": "0.2.0",
+  "description": "Physical therapy subjective analysis, objective evidence comparison and clinical Impression with fixed Markdown tables.",
+  "author": {
+    "name": "Logical PT"
+  }
+}

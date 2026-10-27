@@ -1,0 +1,31 @@
+{
+  "negative_controls": [
+    {
+      "check": "missing-regions-column",
+      "result": "rejected as expected",
+      "reason": "table-3-2: cell count differs from header"
+    },
+    {
+      "check": "missing-irritability-row",
+      "result": "rejected as expected",
+      "reason": "table-2-1: base rows missing/reordered"
+    },
+    {
+      "check": "wrong-timeline-title",
+      "result": "rejected as expected",
+      "reason": "complete: expected ['table-1-1', 'table-1-2', 'table-2-1', 'table-2-2', 'table-3-1', 'table-3-2', 'table-4'], found ['table-1-1', 'table-1-2', 'table-2-1', 'table-2-1', 'table-3-1', 'table-3-2', 'table-4']"
+    },
+    {
+      "check": "inherited-source-rating",
+      "result": "rejected as expected",
+      "reason": "table-3-1: unapproved status label"
+    },
+    {
+      "check": "symptom-count-mismatch",
+      "result": "rejected as expected",
+      "reason": "table-1-1: wrong repetition count"
+    }
+  ],
+  "positive_control": "Source locator [S1] allowed",
+  "clinical_validation": false
+}
