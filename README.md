@@ -30,10 +30,14 @@ The workflow ends at Impression and related clarification/assessment questions. 
 
 ## Shared references and installation
 
-Keep the complete `pt-clinical-skills/` plugin directory when installing or copying this package. Copying only `skills/<name>/` omits required shared references; standalone per-skill copies are not supported by this source layout. A future per-skill distribution must bundle the shared resources and rewrite its links before installation.
+The repository root is the plugin directory. Keep the complete repository when installing or copying this package, including the hidden `.codex-plugin/` and `.claude-plugin/` directories. Copying only `skills/<name>/` omits required shared references; standalone per-skill copies are not supported by this source layout. A future per-skill distribution must bundle the shared resources and rewrite its links before installation.
 
 ```text
-pt-clinical-skills/
+Physio-logic/                        # Repository and plugin root
+├── README.md
+├── plugin.json
+├── .codex-plugin/
+├── .claude-plugin/
 ├── references/                      # Shared across stages
 │   ├── clinical-contract.md
 │   ├── stage-routing.md
@@ -55,7 +59,7 @@ Read [synthetic complete input](evals/inputs/complete-case.md) alongside the [co
 
 ## Validate locally
 
-From this package directory:
+From the repository root:
 
 ```sh
 python3 scripts/validate_package.py
