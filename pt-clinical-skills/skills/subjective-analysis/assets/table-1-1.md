@@ -4,6 +4,8 @@
 
 Symptom [n]: [case-supported description]
 
+Fill column 2 with adjacent tissue candidates first, then column 3 with remote tissue candidates, following Phase 1 Steps 1–2. Review all 13 rows. Replace placeholders with specific candidates and their basis/uncertainty, Not applicable with a reason when a category does not apply, or an explicit unknown when information is insufficient. Remote-source examples guide hypotheses; they are not confirmed causes.
+
 | Tissue category | Adjacent possible sources | Possible sources of referred pain from remote regions |
 | --- | --- | --- |
 | Bone | [candidate and case basis, or unknown] | [candidate and case basis, or unknown] |
