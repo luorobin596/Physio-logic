@@ -36,6 +36,8 @@ Use for final assessment synthesis or an explicit Impression request, including 
    - Uncertain entries remain unknown.
 3. **Concise table summary:** Keep the Impression cell concise.
 
+- **Kinetic-chain synthesis:** When movement-related findings contribute to the working explanation, read the shared [kinetic-chain guide](../../references/kinetic-chain-analysis.md). Integrate the supported explanation, functional impact and remaining uncertainty in Table 4 and the selected narrative using available assessment data.
+
 ### Phase 2: Full Clinical Impression
 
 1. **Narrative templates:** Read [Impression templates](assets/impression-templates.md).

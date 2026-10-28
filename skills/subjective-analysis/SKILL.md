@@ -135,7 +135,7 @@ Present the following four parts in order, using supplied facts, explicit unknow
    - Disease entries need not have an upstream/downstream chain: use Not applicable with a reason where that column does not fit, and keep missing information explicitly unknown.
    - Distinguish hypotheses from established diagnoses and avoid listing unrelated diseases solely for completeness.
 
-- Retain Kinetic chain as an existing template row pending further discussion of its role.
+- **Kinetic-chain reasoning:** When a reported functional or sporting movement is relevant, read the shared [kinetic-chain guide](../../references/kinetic-chain-analysis.md). Use task phases and symptom timing to identify candidate upstream/downstream regions for Table 1.2 at the subjective level; retain the Kinetic chain row.
 - Do not treat it as a synonym for systemic disease or force every system/disease explanation into a kinetic-chain model.
 
 3. **Required sections:** After Steps 1–3, add the clinical contract's Red Flags, Yellow Flags and Reasoning Rationale and Limitations sections.

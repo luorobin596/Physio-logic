@@ -4,7 +4,7 @@
 
 Symptom [n]: [case-supported description]
 
-After Table 1.1, broaden to system-level explanations and disease categories under Phase 1 Step 3. Retain the six base rows and append relevant categories as needed. State the proposed explanation and its case basis in the relevant cells, alongside structures/pathways and regions. Use Not applicable with a reason where an upstream/downstream model does not fit; insufficient information remains unknown. Kinetic chain is a retained category pending further discussion, not a required model for every row.
+After Table 1.1, broaden to system-level explanations and disease categories under Phase 1 Step 3. Retain the six base rows and append relevant categories as needed. State the proposed explanation and its case basis in the relevant cells, alongside structures/pathways and regions. Use Not applicable with a reason where an upstream/downstream model does not fit; insufficient information remains unknown. For the Kinetic chain row, use the shared [kinetic-chain guide](../../../references/kinetic-chain-analysis.md) when a functional task is relevant; it is not a required model for every row.
 
 | Integrated functions or Systems | Upstream and Downstream structure | Regions This System Passes Through |
 | --- | --- | --- |

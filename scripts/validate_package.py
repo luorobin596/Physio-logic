@@ -9,7 +9,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ('subjective-analysis', 'objective-analysis', 'impression')
 SHARED_REFERENCES = ('clinical-contract.md', 'stage-routing.md',
-                     'pain-mechanisms.md', 'pain-discussion-catalog.md')
+                     'pain-mechanisms.md', 'pain-discussion-catalog.md',
+                     'kinetic-chain-analysis.md')
 TITLES = {
     'table-1-1': 'Subjective Table 1.1',
     'table-1-2': 'Subjective Table 1.2',

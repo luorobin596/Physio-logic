@@ -44,6 +44,8 @@ Use for objective assessment analysis, updating subjective hypotheses, or the ob
 3. **System coverage:** Keep the six base system rows; append relevant other categories when needed.
 4. **Title and status:** Use the exact corrected Regions title and an approved involvement status with reason.
 
+- **Kinetic-chain reasoning:** When movement-related hypotheses are relevant, read the shared [kinetic-chain guide](../../references/kinetic-chain-analysis.md). Use supplied observations and examination findings to evaluate restrictions, control patterns and symptom relationships, and return the findings to Tables 3.1/3.2 as appropriate.
+
 ### Phase 3: Hypothesis Update and Handoff
 
 1. **Contradictions and limitations:** After the tables, include Clinical Contradiction Alerts / Insufficient Evidence, then the clinical-contract Red Flags, Yellow Flags and Reasoning Rationale and Limitations.

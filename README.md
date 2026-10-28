@@ -42,6 +42,7 @@ Physio-logic/                        # Repository and plugin root
 │   ├── clinical-contract.md
 │   ├── stage-routing.md
 │   ├── pain-mechanisms.md
+│   ├── kinetic-chain-analysis.md
 │   └── pain-discussion-catalog.md
 └── skills/
     ├── subjective-analysis/          # SKILL.md + local assets/
@@ -52,6 +53,8 @@ Physio-logic/                        # Repository and plugin root
 ```
 
 All three skills link to the shared [clinical contract](references/clinical-contract.md), [stage routing](references/stage-routing.md) and [pain-mechanism guide](references/pain-mechanisms.md). The [historical discussion catalog](references/pain-discussion-catalog.md) is available when relevant; subjective synthesis links to it explicitly. Store cross-stage guidance once in root `references/`; keep guidance specific to one skill in that skill's `references/`. Output templates remain in each skill's `assets/`.
+
+For relevant functional or sporting tasks, all three skills use the shared [kinetic-chain guide](references/kinetic-chain-analysis.md): subjective analysis explores candidate regional contributions, objective analysis evaluates supplied movement and examination findings, and Impression integrates the supported explanation. The guide covers task phases, anatomical movement demands, clinically observable sequence and Kinetic Control concepts without requiring instrumented peak-velocity or energy measurements.
 
 ## Try a reviewable example
 
