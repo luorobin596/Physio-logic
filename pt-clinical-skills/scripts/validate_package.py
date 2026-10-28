@@ -131,6 +131,15 @@ def validate_package():
     require(len({(m['name'], m['version']) for m in manifests}) == 1, 'Manifest identity/version drift')
     require(manifests[0]['$schema'] == 'https://agent-plugins.org/schemas/1.0.0/plugin.schema.json',
             'Portable schema declaration missing')
+    require(all(m['author'] == manifests[0]['author'] for m in manifests),
+            'Manifest author drift')
+    portable_interface = manifests[0]['extensions']['com.openai']['interface']
+    codex_interface = manifests[1]['interface']
+    for label, interface in [('Portable', portable_interface), ('Codex', codex_interface)]:
+        subtitle = interface.get('shortDescription')
+        require(isinstance(subtitle, str) and 1 <= len(subtitle) <= 30,
+                f'{label} shortDescription must contain 1–30 characters')
+    require(portable_interface == codex_interface, 'Manifest presentation drift')
     for entry in json.loads((ROOT / 'sources/manifest.json').read_text())['files']:
         path = ROOT / 'sources' / entry['path']
         require(hashlib.sha256(path.read_bytes()).hexdigest() == entry['sha256'], f'Source changed: {path}')
