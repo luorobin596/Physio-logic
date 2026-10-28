@@ -21,11 +21,22 @@ Use for symptom/history analysis, subjective synthesis, or the subjective portio
    - This skill owns Tables 1.1, 1.2, 2.1 and 2.2; Table 2 is preliminary subjective synthesis, not an objectively confirmed final Impression.
 
 2. **Data inventory:** Identify the available history, actual distinct symptoms, functional goals, dates and missing information.
-3. **Symptom classification:** Classify each distinct symptom with a stable ID, its reported location/distribution and symptom description; preserve these across all three Phase 1 steps.
+3. **Symptom classification:** Apply the symptom-splitting rules below. Classify each distinct symptom with a stable ID, its reported location/distribution and symptom description; preserve these across all three Phase 1 steps.
    - If no case history exists, ask for the main symptoms and useful history before generating tables; do not fabricate a case.
    - Use supplied information without asking for it again.
 
 4. **Analysis mode:** Determine whether the request is staged or explicitly asks for a complete combined analysis; follow the corresponding route below.
+
+#### Symptom-Splitting Rules
+
+- **Descriptive scope:** Use symptoms that can be independently described and tracked as the unit of classification. Organize the patient's descriptions without judging symptom sources or establishing hypotheses; leave those judgments to Phases 1–2. Do not split symptoms by a presumed diagnosis.
+- **Separate locations:** Assign separate IDs when symptoms in different locations can occur or change independently.
+- **Different qualities:** At the same location, split different symptom qualities when their timing, provoking conditions or course differ. If they always occur together, initially retain them as multiple descriptors of one symptom.
+- **Continuous distribution:** Initially retain a continuously extending symptom pattern as one symptom's distribution, such as symptoms extending from the buttock to the calf. Do not automatically create an item for every region.
+- **Bilateral symptoms:** Split sides when they can vary independently. If timing and quality are the same, initially allow a combined item while preserving side-specific differences.
+- **Unclear relationship:** Ask whether symptoms occur together and whether they can change independently before deciding how to group them; do not guess.
+- **Separate context:** Record functional limitations and existing diagnoses separately rather than automatically treating them as symptom items.
+- **Grouping meaning:** Combining descriptions into one symptom item is a recording decision, not a conclusion that they share one cause.
 
 #### Minimum-Data Checklist
 
@@ -68,6 +79,18 @@ Use for symptom/history analysis, subjective synthesis, or the subjective portio
 - Missing or unanswered screening information remains unknown, not a negative screen.
 - **Urgent concerns:** Address potentially urgent cues immediately under the clinical contract; do not wait for routine data collection or table completion.
 - Continue relevant follow-up as new information emerges.
+
+#### Phase 0 Output
+
+Present the following four parts in order, using supplied facts, explicit unknowns and stable symptom IDs:
+
+1. **Background summary:** Summarize age, relevant history, injury/surgery and medications.
+2. **Symptom list:** For each ID, include the original description, location/distribution, character, onset/course and aggravating/relieving conditions. Explain grouping or splitting where needed so the user can correct the classification.
+3. **Inventory and questions:** Present the minimum-data checklist with Available, Partial or Not provided status and ask only for missing information. List model-led red-flag questions separately from the minimum-data questions.
+4. **Continuation status:** State whether Phase 0 remains open or Phase 1 can begin.
+   - Stay in Phase 0 when required information is missing or a grouping relationship needs clarification, and request the relevant answers.
+   - When required data are sufficient and symptom grouping is unambiguous, continue directly into Phase 1 without a routine confirmation stop.
+   - Preserve the explicitly agreed limited-analysis exception and urgent-concern priority defined above.
 
 ### Phase 1: Symptom-Source Exploration
 
@@ -149,6 +172,8 @@ Use for symptom/history analysis, subjective synthesis, or the subjective portio
 
 Before delivering the current stage, confirm:
 
+- [ ] Phase 0 groups symptoms from patient descriptions rather than source hypotheses; independent variation, continuous distributions, side differences and unresolved grouping questions are handled under the symptom-splitting rules.
+- [ ] Phase 0 presents the four output parts in order, separates red-flag questions from minimum-data gaps and states the appropriate continuation status.
 - [ ] The seven-item intake checklist uses supplied facts; all five required items are available for the case and each symptom before Phase 1, or an explicit limited-analysis exception and its remaining gaps are recorded.
 - [ ] Relevant unanswered red-flag questions were actively identified and asked from the available case context; initial omission was not treated as a failed intake item or a negative screen.
 - [ ] When produced, Tables 1.1 and 1.2 match the actual symptom count and retain stable symptom IDs, base rows and columns.

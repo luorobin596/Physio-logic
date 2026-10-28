@@ -48,6 +48,8 @@ Keep original precaution fields consistent with these sections. Do not state No 
 
 ## Handoff and updates
 
+- **Symptom ID continuity:** Carry the symptom IDs assigned in subjective Phase 0 through subjective analysis, objective analysis and the end of Impression. When symptoms are consolidated or merged during analysis, state the grouping change and preserve the correspondence between the original IDs and the merged item.
+
 Preserve the case code/scope, dates and data version, stable symptom IDs, source-labeled facts, hypotheses with status/reasons, contradictions, unknowns, completed tables and current stage. This is visible-context continuity, not cross-chat memory. A new chat needs the source data or a handoff summary. When corrected data arrive, update the affected tables and conclusions and say what changed; do not treat an ordinary question or new data as permission to advance a staged stop.
 
 ## Clinical reference basis
