@@ -140,6 +140,8 @@ Present the following four parts in order, using supplied facts, explicit unknow
 
 - **Nervous-system reasoning:** When symptoms or history suggest neural involvement, read the shared [nervous-system analysis guide](../../references/nervous-system-analysis.md). Build on Table 1.1's adjacent and remote neural-source candidates to explore case-relevant pathways, lesion/disease processes and mechanical function in Table 1.2. Retain these as hypotheses; assess neuropathic pain classification separately under the shared [pain-mechanism guide](../../references/pain-mechanisms.md).
 
+- **Vascular reasoning:** When symptoms or history suggest vascular involvement, read the shared [vascular analysis guide](../../references/vascular-analysis.md). Build on Table 1.1's adjacent and remote vessel-source candidates to explore case-relevant arterial perfusion, venous return and vascular regulation in Table 1.2. Retain these as hypotheses, distinguish vascular processes from inferred ANS dysfunction, and prioritize potentially urgent findings.
+
 3. **Required sections:** After Steps 1–3, add the clinical contract's Red Flags, Yellow Flags and Reasoning Rationale and Limitations sections.
 - Address potentially urgent concerns immediately rather than waiting to finish the steps.
 - **Subjective stop:** Stop and invite a clear forward request before Table 2, unless a complete combined analysis was explicitly requested.
