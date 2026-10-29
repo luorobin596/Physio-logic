@@ -138,6 +138,8 @@ Present the following four parts in order, using supplied facts, explicit unknow
 - **Kinetic-chain reasoning:** When a reported functional or sporting movement is relevant, read the shared [kinetic-chain guide](../../references/kinetic-chain-analysis.md). Use task phases and symptom timing to identify candidate upstream/downstream regions for Table 1.2 at the subjective level; retain the Kinetic chain row.
 - Do not treat it as a synonym for systemic disease or force every system/disease explanation into a kinetic-chain model.
 
+- **Nervous-system reasoning:** When symptoms or history suggest neural involvement, read the shared [nervous-system analysis guide](../../references/nervous-system-analysis.md). Build on Table 1.1's adjacent and remote neural-source candidates to explore case-relevant pathways, lesion/disease processes and mechanical function in Table 1.2. Retain these as hypotheses; assess neuropathic pain classification separately under the shared [pain-mechanism guide](../../references/pain-mechanisms.md).
+
 3. **Required sections:** After Steps 1–3, add the clinical contract's Red Flags, Yellow Flags and Reasoning Rationale and Limitations sections.
 - Address potentially urgent concerns immediately rather than waiting to finish the steps.
 - **Subjective stop:** Stop and invite a clear forward request before Table 2, unless a complete combined analysis was explicitly requested.
