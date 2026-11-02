@@ -38,6 +38,8 @@ Use for final assessment synthesis or an explicit Impression request, including 
 
 - **Kinetic-chain synthesis:** When movement-related findings contribute to the working explanation, read the shared [kinetic-chain guide](../../references/kinetic-chain-analysis.md). Integrate the supported explanation, functional impact and remaining uncertainty in Table 4 and the selected narrative using available assessment data.
 
+- **Autonomic synthesis:** When autonomic contributions are relevant, integrate their supported role, functional impact and remaining uncertainty using the shared [autonomic nervous system analysis guide](../../references/autonomic-nervous-system-analysis.md).
+
 ### Phase 2: Full Clinical Impression
 
 1. **Narrative templates:** Read [Impression templates](assets/impression-templates.md).

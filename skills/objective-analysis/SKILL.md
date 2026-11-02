@@ -46,6 +46,8 @@ Use for objective assessment analysis, updating subjective hypotheses, or the ob
 
 - **Kinetic-chain reasoning:** When movement-related hypotheses are relevant, read the shared [kinetic-chain guide](../../references/kinetic-chain-analysis.md). Use supplied observations and examination findings to evaluate restrictions, control patterns and symptom relationships, and return the findings to Tables 3.1/3.2 as appropriate.
 
+- **Autonomic reasoning:** When autonomic hypotheses or relevant findings require interpretation, read the shared [autonomic nervous system analysis guide](../../references/autonomic-nervous-system-analysis.md). Evaluate the proposed functional relationships using available evidence and update support, opposition and uncertainty in the existing tables.
+
 ### Phase 3: Hypothesis Update and Handoff
 
 1. **Contradictions and limitations:** After the tables, include Clinical Contradiction Alerts / Insufficient Evidence, then the clinical-contract Red Flags, Yellow Flags and Reasoning Rationale and Limitations.

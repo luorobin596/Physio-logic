@@ -142,6 +142,8 @@ Present the following four parts in order, using supplied facts, explicit unknow
 
 - **Vascular reasoning:** When symptoms or history suggest vascular involvement, read the shared [vascular analysis guide](../../references/vascular-analysis.md). Build on Table 1.1's adjacent and remote vessel-source candidates to explore case-relevant arterial perfusion, venous return and vascular regulation in Table 1.2. Retain these as hypotheses, distinguish vascular processes from inferred ANS dysfunction, and prioritize potentially urgent findings.
 
+- **Autonomic reasoning:** When symptoms or history make an autonomic contribution plausible, read the shared [autonomic nervous system analysis guide](../../references/autonomic-nervous-system-analysis.md). Explore relevant functions, pathways and regional relationships in Table 1.2, with a case basis and an explicit proposed connection to the symptom.
+
 - **Lymphatic reasoning:** When symptoms or history suggest lymphatic involvement, read the shared [lymphatic analysis guide](../../references/lymphatic-analysis.md). In Table 1.2, consider how regional transport capacity, tissue-fluid load and related tissue changes could explain or contribute to the symptom. State the case-supported connection and the evidence still needed.
 
 3. **Required sections:** After Steps 1–3, add the clinical contract's Red Flags, Yellow Flags and Reasoning Rationale and Limitations sections.
