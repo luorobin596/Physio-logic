@@ -1,16 +1,19 @@
 # PT Clinical Skills
 
-A skill-only plugin for physical therapists to analyze subjective history, compare objective evidence and produce a clinical Impression. Version **0.2.0**, based on the approved specification v0.3 (2026-10-27).
+A skill-only plugin for physical therapists to collect and clarify history, analyze subjective history, compare objective evidence and produce a clinical Impression. Version **0.2.0**, based on the approved specification v0.3 (2026-10-27).
 
 ## Start here
 
 | Skill | Output |
 | --- | --- |
+| [History - intake](skills/history-intake/SKILL.md) | History clarification, symptom grouping, missing-data follow-up and readiness for subjective analysis |
 | [subjective-analysis](skills/subjective-analysis/SKILL.md) | Tables 1.1/1.2 per actual symptom, then preliminary hypotheses and timeline in 2.1/2.2 |
 | [objective-analysis](skills/objective-analysis/SKILL.md) | Structural/system evidence tables 3.1/3.2, support/opposition and missing information |
 | [impression](skills/impression/SKILL.md) | Concise Table 4 and full Impression; optional versions on request |
 
-Provide de-identified assessment data and ask for the relevant stage. Example:
+Provide de-identified assessment data and ask for the relevant stage. Use **History - intake** to organize an unfinished history and collect missing information. Once the required history is sufficient, it offers to continue to subjective analysis. Direct analysis requests use a lightweight entry check and reuse existing history; they do not require a separate intake run. Missing required information is clarified before analysis, unless a limited preliminary analysis is explicitly agreed after its limitations are explained.
+
+Subjective analysis example:
 
 > Analyze my subjective physical therapy assessment using the fixed tables. Identify missing information and preliminary hypotheses without inventing results.
 
@@ -45,6 +48,7 @@ Physio-logic/                        # Repository and plugin root
 │   ├── kinetic-chain-analysis.md
 │   └── pain-discussion-catalog.md
 └── skills/
+    ├── history-intake/               # SKILL.md + display metadata
     ├── subjective-analysis/          # SKILL.md + local assets/
     ├── objective-analysis/           # SKILL.md + local assets/
     └── impression/                   # SKILL.md + local assets/
@@ -52,9 +56,9 @@ Physio-logic/                        # Repository and plugin root
             └── template-selection.md
 ```
 
-All three skills link to the shared [clinical contract](references/clinical-contract.md), [stage routing](references/stage-routing.md) and [pain-mechanism guide](references/pain-mechanisms.md). The [historical discussion catalog](references/pain-discussion-catalog.md) is available when relevant; subjective synthesis links to it explicitly. Store cross-stage guidance once in root `references/`; keep guidance specific to one skill in that skill's `references/`. Output templates remain in each skill's `assets/`.
+All four skills link to the shared [clinical contract](references/clinical-contract.md) and [stage routing](references/stage-routing.md). The three analysis skills also use the [pain-mechanism guide](references/pain-mechanisms.md). The [historical discussion catalog](references/pain-discussion-catalog.md) is available when relevant; subjective synthesis links to it explicitly. Store cross-stage guidance once in root `references/`; keep guidance specific to one skill in that skill's `references/`. Output templates remain in each skill's `assets/`.
 
-For relevant functional or sporting tasks, all three skills use the shared [kinetic-chain guide](references/kinetic-chain-analysis.md): subjective analysis explores candidate regional contributions, objective analysis evaluates supplied movement and examination findings, and Impression integrates the supported explanation. The guide covers task phases, anatomical movement demands, clinically observable sequence and Kinetic Control concepts without requiring instrumented peak-velocity or energy measurements.
+For relevant functional or sporting tasks, the three analysis skills use the shared [kinetic-chain guide](references/kinetic-chain-analysis.md): subjective analysis explores candidate regional contributions, objective analysis evaluates supplied movement and examination findings, and Impression integrates the supported explanation. The guide covers task phases, anatomical movement demands, clinically observable sequence and Kinetic Control concepts without requiring instrumented peak-velocity or energy measurements.
 
 ## Try a reviewable example
 

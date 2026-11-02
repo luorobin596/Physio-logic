@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILLS = ('subjective-analysis', 'objective-analysis', 'impression')
+SKILLS = ('history-intake', 'subjective-analysis', 'objective-analysis', 'impression')
 SHARED_REFERENCES = ('clinical-contract.md', 'stage-routing.md',
                      'pain-mechanisms.md', 'pain-discussion-catalog.md',
                      'kinetic-chain-analysis.md')
@@ -99,7 +99,7 @@ def contracts():
 
 def validate_package():
     require({p.name for p in (ROOT / 'skills').iterdir() if p.is_dir()} == set(SKILLS),
-            'Active skills must contain exactly the three approved stages')
+            'Active skills must contain history intake and the three analysis stages')
     for name in SKILLS:
         base = ROOT / 'skills' / name
         content = (base / 'SKILL.md').read_text()
@@ -193,7 +193,7 @@ def main():
         count = validate_output(args.output, args.mode, args.symptoms, contract)
         print(f'PASS: package integrity and {count} fixed tables in {args.output}')
     else:
-        print('PASS: three skills, seven templates, shared/local resource links, manifests and source hashes')
+        print('PASS: four skills, seven templates, shared/local resource links, manifests and source hashes')
     print('Limit: this validates structure and provenance, not clinical correctness, skill discovery or model behavior.')
 
 if __name__ == '__main__':

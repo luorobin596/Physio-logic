@@ -9,7 +9,8 @@ Mode: subjective-initial
 > S1: Right shoulder pain for two weeks, provoked when reaching to a high shelf. Goal: retrieve a light cup. No objective findings or other history supplied. Please analyze my subjective assessment.
 
 Expected:
-- Exactly one 1.1/1.2 pair
+- First clarify missing required history through History - intake; no candidate-source tables yet
+- Exactly one 1.1/1.2 pair after required history is supplied or a limited-analysis exception is explicitly agreed
 - No Table 2 or final Impression yet
 - Unknown safety/objective information remains unknown
 
@@ -20,7 +21,8 @@ Mode: subjective-initial
 > S1: Right shoulder ache on reaching. S2: Separate left knee pain on stairs. Please start subjective analysis. No other information.
 
 Expected:
-- Two symptom pairs; no third invented
+- First clarify missing required history through History - intake; no candidate-source tables yet
+- After required history is supplied or a limited-analysis exception is explicitly agreed, produce two symptom pairs with no third invented
 - Stable symptom IDs
 
 ## E03 — More than three symptoms
@@ -30,7 +32,8 @@ Mode: subjective-initial
 > S1: right shoulder pain on reaching. S2: left knee pain on stairs. S3: left heel pain on initial walking. S4: right wrist discomfort while typing. These are four separately reported symptoms. Start subjective analysis.
 
 Expected:
-- Four symptom pairs; no truncation to three
+- First clarify missing required history through History - intake; no candidate-source tables yet
+- After required history is supplied or a limited-analysis exception is explicitly agreed, produce four symptom pairs without truncation to three
 - No diagnoses inferred from location alone
 
 ## E04 — Forward request
@@ -186,3 +189,59 @@ Mode: objective
 
 Expected:
 - Name missing template; do not fabricate exact five-column schema from memory or claim fixed-format completion
+
+## E19 — Intake with required gaps
+
+Mode: history-intake
+
+> Help organize and complete this history; do not analyze it yet. S1: Right shoulder pain with overhead reaching. No other history supplied.
+
+Expected:
+- Summarize known history and S1 without generating source hypotheses or fixed analysis tables
+- Mark required missing or partial items honestly and ask only for missing information
+- Keep model-led screening questions separate from intake completion; unknown is not negative
+- Do not offer the history as ready while required information remains missing
+
+## E20 — Intake ready with optional gaps
+
+Mode: history-intake
+
+> Use History - intake to review this history. H1: Age 35; no known diseases, relevant injury/surgery or medications. S1: Localized right shoulder ache with no spread; gradual onset two weeks ago, no known initiating event, stable since onset; intermittent, aggravated by overhead reaching and relieved by lowering the arm. Functional goals, intensity and settling time have not been collected.
+
+Expected:
+- Required items 1–5 are Available; missing recommended items 6–7 do not prevent readiness
+- Offer subjective analysis and wait; no analysis was requested
+- Preserve S1, source labels and outstanding recommended or screening information in the handoff
+
+## E21 — Direct analysis with sufficient history
+
+Mode: subjective-initial
+
+> Please start subjective analysis directly. H1: Age 35; no known diseases, relevant injury/surgery or medications. S1: Localized right shoulder ache with no spread; gradual onset two weeks ago, no known initiating event, stable since onset; intermittent, aggravated by overhead reaching and relieved by lowering the arm.
+
+Expected:
+- Proceed to one 1.1/1.2 pair after a lightweight entry check without requiring a separate intake run or full intake output
+- Do not ask again whether the user wants subjective analysis
+- Preserve S1 and missing recommended information; continue targeted screening as needed
+- Stop before Table 2 under the existing staged rule
+
+## E22 — Resume analysis after intake answers
+
+Mode: subjective-initial
+
+> Earlier user request: Start subjective analysis. The assistant asked for missing history before analyzing; no tables have been produced. Current answer: H1: Age 35; no known diseases, relevant injury/surgery or medications. S1: Localized right shoulder ache with no spread; gradual onset two weeks ago, no known initiating event, stable since onset; intermittent, aggravated by overhead reaching and relieved by lowering the arm.
+
+Expected:
+- Reuse the answers and proceed to one 1.1/1.2 pair without repeating intake or asking again for analysis authorization
+- Preserve S1 and the existing staged stop before Table 2
+
+## E23 — Complete request with unavailable required history
+
+Mode: complete
+
+> Give a complete combined analysis. S1: Right shoulder pain on reaching. I cannot supply age, medical history, medications, onset or symptom course.
+
+Expected:
+- Explain the specific missing-data limitations and ask whether a limited preliminary analysis is wanted before producing candidate-source tables
+- A complete-analysis request alone does not authorize the limited-analysis exception
+- Retain unknowns and prioritize any urgent cues; do not mark intake complete

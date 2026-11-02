@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "pt-clinical-skills",
   "version": "0.2.0",
-  "description": "Physical therapy subjective analysis, objective evidence comparison and clinical Impression with fixed Markdown tables.",
+  "description": "Physical therapy history intake, subjective analysis, objective evidence comparison and clinical Impression with fixed Markdown tables.",
   "author": {
     "name": "luorobin"
   },
