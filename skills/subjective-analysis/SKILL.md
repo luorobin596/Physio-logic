@@ -19,7 +19,7 @@ Use for symptom/history analysis, subjective synthesis, or the subjective portio
 
 - Read the shared [clinical contract](../../references/clinical-contract.md) and [stage routing](../../references/stage-routing.md). This skill owns Tables 1.1, 1.2, 2.1 and 2.2; Table 2 is preliminary subjective synthesis, not an objectively confirmed final Impression.
 - Briefly check the available history or intake handoff: relevant background, and each symptom's location/distribution, character, onset/course and behavior must be available, with clear symptom grouping and stable IDs. Reuse existing information; do not repeat a completed intake or require its full output before analysis.
-- When the history is sufficient, proceed directly to the requested analysis. If required information or symptom grouping is unresolved, use History - intake to clarify only those gaps. Its minimum-data rules and explicitly agreed limited-analysis exception apply; requesting analysis alone does not waive missing required data.
+- When the history is sufficient, proceed directly to the requested analysis. If required information or symptom grouping is unresolved, use history-intake to clarify only those gaps. Its minimum-data rules and explicitly agreed limited-analysis exception apply; requesting analysis alone does not waive missing required data.
 - Continue targeted red-flag follow-up under the clinical contract throughout analysis; preserve unanswered screening questions as unknown and address urgent cues immediately.
 - Follow the user's staged or explicit complete-analysis scope. Carry outstanding recommended intake information forward and collect it before Phase 2 where possible, retaining limitations when unavailable.
 
@@ -111,7 +111,7 @@ Use for symptom/history analysis, subjective synthesis, or the subjective portio
 
 Before delivering the current stage, confirm:
 
-- [ ] The lightweight entry check reuses available history and stable symptom IDs; required gaps or unresolved grouping are clarified through History - intake without repeating a completed intake.
+- [ ] The lightweight entry check reuses available history and stable symptom IDs; required gaps or unresolved grouping are clarified through history-intake without repeating a completed intake.
 - [ ] Required history is sufficient for the case and each symptom, or an explicitly agreed limited-analysis exception and its gaps remain visible.
 - [ ] Relevant unanswered red-flag questions remain visible and receive targeted follow-up; urgent cues take priority throughout analysis.
 - [ ] When produced, Tables 1.1 and 1.2 match the actual symptom count and retain stable symptom IDs, base rows and columns.

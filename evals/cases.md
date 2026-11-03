@@ -9,7 +9,7 @@ Mode: subjective-initial
 > S1: Right shoulder pain for two weeks, provoked when reaching to a high shelf. Goal: retrieve a light cup. No objective findings or other history supplied. Please analyze my subjective assessment.
 
 Expected:
-- First clarify missing required history through History - intake; no candidate-source tables yet
+- First clarify missing required history through history-intake; no candidate-source tables yet
 - Exactly one 1.1/1.2 pair after required history is supplied or a limited-analysis exception is explicitly agreed
 - No Table 2 or final Impression yet
 - Unknown safety/objective information remains unknown
@@ -21,7 +21,7 @@ Mode: subjective-initial
 > S1: Right shoulder ache on reaching. S2: Separate left knee pain on stairs. Please start subjective analysis. No other information.
 
 Expected:
-- First clarify missing required history through History - intake; no candidate-source tables yet
+- First clarify missing required history through history-intake; no candidate-source tables yet
 - After required history is supplied or a limited-analysis exception is explicitly agreed, produce two symptom pairs with no third invented
 - Stable symptom IDs
 
@@ -32,7 +32,7 @@ Mode: subjective-initial
 > S1: right shoulder pain on reaching. S2: left knee pain on stairs. S3: left heel pain on initial walking. S4: right wrist discomfort while typing. These are four separately reported symptoms. Start subjective analysis.
 
 Expected:
-- First clarify missing required history through History - intake; no candidate-source tables yet
+- First clarify missing required history through history-intake; no candidate-source tables yet
 - After required history is supplied or a limited-analysis exception is explicitly agreed, produce four symptom pairs without truncation to three
 - No diagnoses inferred from location alone
 
@@ -206,7 +206,7 @@ Expected:
 
 Mode: history-intake
 
-> Use History - intake to review this history. H1: Age 35; no known diseases, relevant injury/surgery or medications. S1: Localized right shoulder ache with no spread; gradual onset two weeks ago, no known initiating event, stable since onset; intermittent, aggravated by overhead reaching and relieved by lowering the arm. Functional goals, intensity and settling time have not been collected.
+> Use history-intake to review this history. H1: Age 35; no known diseases, relevant injury/surgery or medications. S1: Localized right shoulder ache with no spread; gradual onset two weeks ago, no known initiating event, stable since onset; intermittent, aggravated by overhead reaching and relieved by lowering the arm. Functional goals, intensity and settling time have not been collected.
 
 Expected:
 - Required items 1–5 are Available; missing recommended items 6–7 do not prevent readiness

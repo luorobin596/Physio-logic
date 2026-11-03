@@ -3,7 +3,7 @@ name: history-intake
 description: Organize and clarify physical therapy history, collect missing interview information and check readiness for subjective analysis. Use when the user wants help completing history or when required history is missing before analysis.
 ---
 
-# History - intake
+# history-intake
 
 ## Overview
 
