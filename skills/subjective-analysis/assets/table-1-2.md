@@ -4,13 +4,15 @@
 
 Symptom [n]: [case-supported description]
 
-After Table 1.1, broaden to system-level explanations and disease categories under Phase 1 Step 3. Retain the six base rows and append relevant categories as needed. State the proposed explanation and its case basis in the relevant cells, alongside structures/pathways and regions. Use Not applicable with a reason where an upstream/downstream model does not fit; insufficient information remains unknown. For the Kinetic chain row, use the shared [kinetic-chain guide](../../../references/kinetic-chain-analysis.md) when a functional task is relevant; it is not a required model for every row.
+After Table 1.1, broaden to system-level explanations and disease categories under Phase 1 Step 3. Retain the six base rows and append relevant categories as needed. Explanation & Basis states the candidate, its possible symptom connection and case basis, including material uncertainty. Structures & Relationships identifies relevant structures, pathways, interfaces, functional relationships and anatomical regions. Select the relationship model according to the system and candidate: analyze upstream/downstream structures, direction and routes when relevant; use network, regulatory or other functional relationships where appropriate. Use Not applicable only with a reason that fits the new field; insufficient information remains unknown. For the Kinetic chain row, use the shared [kinetic-chain guide](../../../references/kinetic-chain-analysis.md) when a functional task is relevant.
 
-| Integrated functions or Systems | Upstream and Downstream structure | Regions This System Passes Through |
+Keep each summary understandable on its own. When needed, follow this table with system expansions under the subjective skill's output rules; expansion does not indicate greater diagnostic certainty.
+
+| System / Category | Explanation & Basis | Structures & Relationships |
 | --- | --- | --- |
-| Kinetic chain | [case-relevant structure or unknown] | [region and case basis, or unknown] |
-| Myofascial lines | [case-relevant structure or unknown] | [region and case basis, or unknown] |
-| Nervous system | [case-relevant structure or unknown] | [region and case basis, or unknown] |
-| Vessels | [case-relevant structure or unknown] | [region and case basis, or unknown] |
-| Autonomic Nervous System | [case-relevant structure or unknown] | [region and case basis, or unknown] |
-| lymphatic system | [case-relevant structure or unknown] | [region and case basis, or unknown] |
+| Kinetic chain | [candidate explanation, symptom connection and case basis, or unknown] | [relevant structures, relationships and regions, or unknown] |
+| Myofascial / Fascial system | [candidate explanation, symptom connection and case basis, or unknown] | [relevant structures, relationships and regions, or unknown] |
+| Nervous system | [candidate explanation, symptom connection and case basis, or unknown] | [relevant structures, relationships and regions, or unknown] |
+| Vessels | [candidate explanation, symptom connection and case basis, or unknown] | [relevant structures, relationships and regions, or unknown] |
+| Autonomic Nervous System | [candidate explanation, symptom connection and case basis, or unknown] | [relevant structures, relationships and regions, or unknown] |
+| lymphatic system | [candidate explanation, symptom connection and case basis, or unknown] | [relevant structures, relationships and regions, or unknown] |

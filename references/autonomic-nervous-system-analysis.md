@@ -154,11 +154,11 @@ A symptom change after breathing, posture modification or another intervention d
 
 ## Return to Table 1.2 and System Boundaries
 
-Preserve the existing three columns:
+For subjective Table 1.2, use the three columns as follows:
 
-- **Integrated functions or Systems:** Retain the Autonomic Nervous System row label.
-- **Upstream and Downstream structure:** Record the proposed functional relationship, relevant pathways/effectors and a concise case basis. Use a network or regulatory explanation where a single causal chain is unsuitable.
-- **Regions This System Passes Through:** Record the regions relevant to the proposed pathway and symptom relationship. Select clinically relevant regions rather than reproducing the entire autonomic anatomy.
+- **System / Category:** Retain the Autonomic Nervous System row label.
+- **Explanation & Basis:** Summarize the proposed function or regulatory relationship, its possible symptom role, case basis and material uncertainty.
+- **Structures & Relationships:** Record relevant pathways, effectors, anatomical regions and their proposed relationships. Describe directional pathway or upstream/downstream relationships when relevant to the candidate, and network or regulatory relationships as appropriate; select the anatomy relevant to the explanation rather than reproducing the entire autonomic anatomy.
 
 Maintain the following responsibilities:
 
@@ -167,7 +167,7 @@ Maintain the following responsibilities:
 - **ANS:** The proposed autonomic regulation of relevant functions and effectors.
 - **Lymphatic and other systems:** Their own transport, organ or physiological processes, connected to the autonomic candidate only where justified.
 
-Use existing reasoning sections for substantial uncertainty and verification questions. Apply the same functional explanations when objective findings update Table 3.2 and when supported contributions enter Impression.
+When detail is needed, use an optional system expansion under the subjective skill's output rules. Follow the selected functional direction, contextual timing, pain–autonomic relationship, candidate formulation and verification questions already described above. Preserve distinctions between symptom generation, modulation, tolerance and accompanying responses. Use vertical item/content tables or bullets without requiring every autonomic function. Keep the summary independently readable and reference the expansion from existing reasoning sections without repeating it. Apply the same functional explanations when objective findings update Table 3.2 and when supported contributions enter Impression, retaining those stages' own schemas and evidence requirements.
 
 ## Medical-Assessment Priority
 

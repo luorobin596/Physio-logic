@@ -12,6 +12,8 @@ Use the shared references at the plugin root and the assets or dedicated referen
 
 A clear forward request only advances the current stage. Do not invent missing objective findings when the next step requires them. Interrupt routine ordering for a potentially urgent issue.
 
+Within subjective Phase 1, each symptom's Table 1.1 → Table 1.2 may be followed by selected system expansions before the next symptom block. These are optional detail within Step 3, not a new stage or permission to generate Table 2. Preserve each symptom ID and the existing stop before subjective synthesis.
+
 ## Complete-analysis request
 
 When explicitly asked for a complete combined analysis, perform 1.1 → 1.2 → 2.1 → 2.2 → 3.1 → 3.2 → 4 → full Impression in order, with no intermediate confirmation stop. history-intake's minimum-data requirement still applies; a complete-analysis request alone does not authorize a limited-data exception. Use other installed stage skills when available and the host supports that; no subagents are required. If they are unavailable, complete the portion supported by this skill, state the missing stage capability and request/load the relevant stage skill rather than improvising its fixed schema or pretending the full request is complete.

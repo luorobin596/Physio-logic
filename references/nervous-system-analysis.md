@@ -58,13 +58,13 @@ Do not require a conclusion about whether multiple candidates are alternatives, 
 
 ## Step 4: Return to Table 1.2
 
-Preserve the existing three columns:
+For subjective Table 1.2, use the three columns as follows:
 
-- **Integrated functions or Systems:** Retain the Nervous system row label.
-- **Upstream and Downstream structure:** Record the selected explanation, relevant neural structures/interfaces and a concise case basis. Do not force a single upstream-to-downstream causal chain.
-- **Regions This System Passes Through:** Record the regions relevant to that explanation and their proposed relationship. Do not list every region normally traversed by the nervous system.
+- **System / Category:** Retain the Nervous system row label.
+- **Explanation & Basis:** Summarize the selected process or functional explanation, its possible symptom connection, case basis and material uncertainty.
+- **Structures & Relationships:** Record relevant neural structures, interfaces, pathways and anatomical regions with their proposed relationship. Describe proximal/distal or central/peripheral connections and pathway direction when relevant to the candidate; use network or functional relationships where appropriate. Anatomical direction alone does not establish causation. Select the regions relevant to the explanation rather than listing every region normally traversed by the nervous system.
 
-Use existing reasoning sections for material follow-up questions, verification directions and limitations when they would overcrowd the table. Missing information remains unknown.
+When detail is needed, use an optional system expansion under the subjective skill's output rules. Organize it by the selected explanatory directions in Step 2 and the candidate, case basis, pathway/regions and uncertainty in Step 3, preserving distinctions between neural function, mechanical function and pain classification. Use vertical item/content tables or bullets rather than a mandatory new template. Keep the summary independently readable and reference the expansion from existing reasoning sections without repeating it. Missing information remains unknown. Objective analysis and Impression retain their own schemas and evidence requirements.
 
 ## Interpretation Limits
 

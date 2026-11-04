@@ -62,7 +62,9 @@ For relevant functional or sporting tasks, the three analysis skills use the sha
 
 ## Try a reviewable example
 
-Read [synthetic complete input](evals/inputs/complete-case.md) alongside the [complete reference output](evals/results/complete-case-output.md). The output is an authored same-agent walkthrough, not an independently measured model result. [Legacy case mapping](examples/legacy-case-mapped.md) illustrates the source's three/five-column migration and provenance limitations.
+Read [synthetic complete input](evals/inputs/complete-case.md) alongside the [historical complete reference output](evals/results/complete-case-output.md). The output is an authored same-agent walkthrough using the previous Table 1.2 contract, not an independently measured model result or a current-format validation fixture. [Legacy case mapping](examples/legacy-case-mapped.md) illustrates the source's three/five-column migration and provenance limitations.
+
+Current subjective Table 1.2 uses System / Category, Explanation & Basis and Structures & Relationships, including relevant anatomical regions. Its Myofascial / Fascial system label is broader than the historical label. Selected system expansions may follow each symptom's table using the subjective skill's heading and content rules; they are optional detail within Phase 1. Existing system references retain their reasoning frameworks, and objective Table 3.2 retains its five-column contract.
 
 ## Validate locally
 
@@ -70,10 +72,10 @@ From the repository root:
 
 ```sh
 python3 scripts/validate_package.py
-python3 scripts/validate_package.py --output evals/results/complete-case-output.md --mode complete
+python3 -B -m unittest discover -s scripts -p 'test_*.py'
 ```
 
-The validator uses Python's standard library and checks package identity, source hashes, skill links, shared and skill-specific resource links, table headers/base rows and selected output invariants. It does not prove clinical correctness, actual skill discovery, or model behavior. [Behavioral cases](evals/cases.md), [rubric](evals/rubric.md) and [recorded results](evals/results/validation-report.md) specify the remaining review.
+The validator uses Python's standard library and checks package identity, source hashes, skill links, shared and skill-specific resource links, table headers/base rows and selected output invariants. Full package validation requires the source files and sources/manifest.json. To validate a current-format output, add `--output path/to/output.md --mode subjective-initial --symptoms 1` with the appropriate mode/count. The unit checks exercise current structural output behavior using synthetic fixtures; they do not replace source-integrity checks. Neither check proves clinical correctness, actual skill discovery, or model behavior. [Behavioral cases](evals/cases.md), [rubric](evals/rubric.md) and [recorded results](evals/results/validation-report.md) specify the remaining review.
 
 ## Platforms
 

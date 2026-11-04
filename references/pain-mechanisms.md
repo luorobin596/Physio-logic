@@ -70,7 +70,7 @@ Assess neural function and mechanosensitivity separately. Normal routine neurolo
 - Subjective analysis: identify preliminary hypotheses and available A/B evidence; use supplied examination/report data where available, with provenance. Retain stage boundaries.
 - Objective analysis: record mechanosensitivity evidence in Table 3.1 Nerve and Table 3.2 Nervous system, as applicable. Update A–D using available findings.
 - Impression: retain the supported functional finding and separately state the neuropathic grade or the exact reason it remains undetermined. Keep Table 4 and the full Impression consistent.
-- Place the compact criterion rationale and next discriminating assessment in existing content cells or Reasoning Rationale and Limitations. Preserve fixed table schemas. The next assessment should identify its clinical question, appropriate method/source and how its result would change interpretation.
+- Place the compact criterion rationale and next discriminating assessment in existing content cells or Reasoning Rationale and Limitations; when subjective system expansion is warranted, related detail may appear there under the subjective skill's output rules. Preserve fixed table schemas and stage depth; expansion does not require completing every pain classification in Phase 1. The next assessment should identify its clinical question, appropriate method/source and how its result would change interpretation.
 - Keep stars for support of the particular hypothesis. Strong mechanosensitivity support does not translate into definite neuropathic pain; formal grades do not automatically map to stars.
 
 Example (illustrative, not patient data):

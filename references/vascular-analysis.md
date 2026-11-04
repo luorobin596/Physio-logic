@@ -96,13 +96,13 @@ Select assessments that answer the candidate's clinical question. Match the meth
 
 ## Step 5: Return to Table 1.2
 
-Preserve the existing three columns:
+For subjective Table 1.2, use the three columns as follows:
 
-- **Integrated functions or Systems:** Retain the Vessels row label.
-- **Upstream and Downstream structure:** Record the selected circulatory explanation, relevant vessels or functional contributors and a concise case basis. Do not force a single causal chain.
-- **Regions This System Passes Through:** Record the relevant supply/drainage territories and regional relationship, not every region traversed by the circulation.
+- **System / Category:** Retain the Vessels row label.
+- **Explanation & Basis:** Summarize the selected circulatory process, its possible symptom connection, case basis and material uncertainty.
+- **Structures & Relationships:** Record relevant vessels, functional contributors, supply/drainage pathways and anatomical territories with their proposed relationships. Describe upstream/downstream structures and flow direction when relevant to perfusion or return; include regulatory or other functional relationships as appropriate. Select the territories relevant to the explanation rather than listing every region traversed by the circulation.
 
-Use existing reasoning sections for material follow-up questions, verification directions and limitations.
+When detail is needed, use an optional system expansion under the subjective skill's output rules. Follow the selected process in Step 2, candidate formulation in Step 3 and process-specific verification questions in Step 4; preserve provocation/recovery patterns and relevant cross-system relationships. Use vertical item/content tables or bullets without requiring every vascular direction. Keep the summary independently readable and reference the expansion from existing reasoning sections without repeating it. Verification directions are not completed examinations; objective analysis and Impression retain their own schemas and evidence requirements.
 
 ## Medical-Assessment Priority
 

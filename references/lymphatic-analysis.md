@@ -67,15 +67,15 @@ Preserve symptom IDs. Keep related symptoms distinct unless their grouping has b
 
 ## Step 4: Return to Table 1.2
 
-Preserve the existing three columns:
+For subjective Table 1.2, use the three columns as follows:
 
-- **Integrated functions or Systems:** Retain the lymphatic system row label.
-- **Upstream and Downstream structure:** Record the proposed process and relevant regional pathways or functional relationships, with a concise case basis.
-- **Regions This System Passes Through:** Identify the affected territory and clinically relevant drainage regions.
+- **System / Category:** Retain the lymphatic system row label.
+- **Explanation & Basis:** Summarize the proposed transport/load process, its possible symptom connection, case basis and material uncertainty.
+- **Structures & Relationships:** Identify relevant regional pathways, functional relationships, affected anatomical territory and drainage regions. Describe upstream/downstream drainage connections and transport direction when relevant to the candidate, alongside load/capacity or other functional relationships as appropriate. Use these to explain the candidate rather than listing the entire lymphatic network.
 
-Use structures and regions to explain the candidate, rather than listing the entire lymphatic network. Place material uncertainty and discriminating evidence in existing reasoning sections when needed.
+When detail is needed, use an optional system expansion under the subjective skill's output rules. Follow transport capacity/load in Step 1, symptom/function relationships and inference gaps in Step 2, and candidate formulation in Step 3. Preserve distinctions between tissue/fluid changes, lymphatic participation and the link to the symptom. Use vertical item/content tables or bullets without requiring every process. Keep the summary independently readable and reference the expansion from existing reasoning sections without repeating it.
 
-Objective analysis may use the same mechanism knowledge to judge whether findings support the proposed relationship. Prioritize potentially urgent findings under the [clinical contract](clinical-contract.md), including possible infection, thrombosis or a new obstructive process.
+Objective analysis may use the same mechanism knowledge to judge whether findings support the proposed relationship; objective analysis and Impression retain their own schemas and evidence requirements. Prioritize potentially urgent findings under the [clinical contract](clinical-contract.md), including possible infection, thrombosis or a new obstructive process.
 
 ## Sources and Limits
 

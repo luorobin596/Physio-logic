@@ -63,7 +63,9 @@ Use for symptom/history analysis, subjective synthesis, or the subjective portio
    - The categories are open-ended, not limited to the base rows.
 
 2. **System rationale:** For each relevant row, identify the possible system-level explanation or disease category, the case/anatomical basis for considering it, relevant structures or pathways, and affected regions.
-   - Disease entries need not have an upstream/downstream chain: use Not applicable with a reason where that column does not fit, and keep missing information explicitly unknown.
+   - Use System / Category for the category; Explanation & Basis for the candidate, possible symptom connection, case basis and material uncertainty; Structures & Relationships for relevant structures, pathways, interfaces, functional relationships and anatomical regions.
+   - Select the relationship model according to the system and candidate. Analyze upstream/downstream structures, direction and routes when relevant; use network, regulatory or other functional relationships where appropriate. Use Not applicable only when the new field is genuinely inapplicable, with a reason; keep missing information explicitly unknown.
+   - Retain the Myofascial / Fascial system row. This broader label does not establish any particular fascial framework or patient-specific dysfunction.
    - Distinguish hypotheses from established diagnoses and avoid listing unrelated diseases solely for completeness.
 
 - **Kinetic-chain reasoning:** When a reported functional or sporting movement is relevant, read the shared [kinetic-chain guide](../../references/kinetic-chain-analysis.md). Use task phases and symptom timing to identify candidate upstream/downstream regions for Table 1.2 at the subjective level; retain the Kinetic chain row.
@@ -77,7 +79,18 @@ Use for symptom/history analysis, subjective synthesis, or the subjective portio
 
 - **Lymphatic reasoning:** When symptoms or history suggest lymphatic involvement, read the shared [lymphatic analysis guide](../../references/lymphatic-analysis.md). In Table 1.2, consider how regional transport capacity, tissue-fluid load and related tissue changes could explain or contribute to the symptom. State the case-supported connection and the evidence still needed.
 
-3. **Required sections:** After Steps 1–3, add the clinical contract's Red Flags, Yellow Flags and Reasoning Rationale and Limitations sections.
+#### Optional System Expansions
+
+- **Selection:** Expand when the proposed relationships are too complex for a concise row, a framework needs explanation, or the user requests detail. Do not expand every system by default; expansion depth is not a ranking of diagnostic certainty.
+- **Order:** For each symptom, present Table 1.1, then Table 1.2, then any expansions for that symptom before starting the next symptom. Expansions remain part of Phase 1 Step 3, not Table 2 synthesis or objective analysis.
+- **Identification:** Start each expansion with a Markdown heading in the form `### System expansion — S1 — System name — Candidate name`, substituting the actual stable symptom ID, system and candidate. Keep separate candidates identifiable; no decision about alternatives, coexistence or causal interaction is required in Phase 1.
+- **Content:** Follow the relevant reference's existing reasoning sequence and selected explanatory directions. Use vertical two-column analysis-item/content tables or bullets as appropriate; no new mandatory system-specific template is imposed. Explain the candidate relationships, case basis, relevant regions, inference gaps and discriminating questions or examination directions at the available stage depth.
+- **Summary:** Table 1.2 must remain understandable without the expansion. Retain important uncertainty in the summary rather than only in the detail; do not replace the row with “see below.”
+- **Reasoning sections:** Keep detailed system relationships and associated questions in the expansion. Use Reasoning Rationale and Limitations for material overall reasoning and limitations, referencing the expansion instead of duplicating it. Do not fabricate findings or require every explanatory direction to be filled.
+
+#### Phase 1 Completion
+
+- **Required sections:** After Steps 1–3 and any selected expansions, add the clinical contract's Red Flags, Yellow Flags and Reasoning Rationale and Limitations sections.
 - Address potentially urgent concerns immediately rather than waiting to finish the steps.
 - **Subjective stop:** Stop and invite a clear forward request before Table 2, unless a complete combined analysis was explicitly requested.
 
@@ -118,6 +131,7 @@ Before delivering the current stage, confirm:
 - [ ] Table 1.1 considers all 13 categories in sequence: adjacent candidates in column 2, then remote candidates in column 3, with a basis and uncertainty for each candidate.
 - [ ] Not applicable has a reason and denotes inapplicability; missing information remains unknown rather than inapplicable or negative.
 - [ ] Table 1.2 broadens to system/disease explanations with case relevance, permits additional categories and does not reduce every explanation to a kinetic chain.
+- [ ] Table 1.2 uses System / Category, Explanation & Basis and Structures & Relationships; relevant anatomical regions and material uncertainty remain explicit. Optional expansions follow the same symptom's table, identify the symptom/system/candidate and preserve stage boundaries without duplicating the summary or requiring all systems to expand.
 - [ ] If subjective synthesis is authorized, Tables 2.1 and 2.2 retain all required items and the exact timeline title; Stage and Irritability have separate bases.
 - [ ] When produced, the timeline contains only reported events/times; unknowns and current inferences are distinct from supplied facts.
 - [ ] When produced, subjective synthesis includes both named follow-up/verification lists, with material items rather than a fixed quota.

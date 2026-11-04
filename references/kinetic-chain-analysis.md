@@ -46,7 +46,7 @@
 1. **Context integration:** Relate symptom timing and movement descriptions to the detailed history, examination findings and prior analysis available in the current context. Preserve the distinction between a task-demand hypothesis and a demonstrated impairment.
 2. **Reasoning models:** Consider relevant movement-control models, including relative flexibility/stiffness and restriction–compensation relationships described below. These are candidate explanations, not mandatory findings or an exhaustive set of mechanisms.
 3. **Evidence comparison:** When examination data are available, identify supporting, opposing and missing findings, and the additional assessment that could change the explanation. A movement variation or symptom association alone does not establish causation.
-4. **Stage return:** Return the relevant findings or hypotheses to the current skill's existing table fields and reasoning sections. Preserve fixed schemas, symptom-ID continuity and existing stage stops; this guide does not require a separate report for every task.
+4. **Stage return:** Return the relevant findings or hypotheses to the current skill's table fields and reasoning sections. For subjective Table 1.2, follow the mapping and optional expansion guidance below. Preserve symptom-ID continuity, stage-specific schemas and existing stage stops; this guide does not require a separate report for every task.
 
 ## Kinetic Control Concepts
 
@@ -74,6 +74,8 @@
 ## Use Across Skills
 
 - **Subjective analysis:** Use the reported task, symptom phase and relevant history to expand candidate upstream/downstream regions in Table 1.2. Keep patient-specific movement patterns and UCM unconfirmed when no observation or examination supports them. Phase 1 remains symptom-based source exploration.
+  - **Table mapping:** Retain Kinetic chain under System / Category. In Explanation & Basis, summarize the task-related candidate, possible symptom connection, case basis and material uncertainty. In Structures & Relationships, describe participating regions/joints, relevant task demands and proposed regional relationships, including task-relevant upstream/downstream structures relative to the symptom location.
+  - **Optional expansion:** Under the subjective skill's output rules, follow Steps 1–4: task boundary/phases, regions/joints/demands, symptom timing and available sequence information, then candidate interpretation and missing evidence. Use vertical item/content tables or bullets, repeating a phase block when useful rather than imposing a new template. Separate reference-based demands, patient reports, observations and inference. Keep Table 1.2 independently readable and reference the detail from existing reasoning sections without repeating it.
 - **Objective analysis:** Use supplied observations and tests to examine the proposed restrictions, control patterns and symptom relationships. Place supported structural findings in Table 3.1 and regional/system involvement in Table 3.2, with the clinical contract's status and rationale.
 - **Impression:** Integrate the supported movement-related explanation, functional impact, contributing regions and unresolved questions in Table 4 and the selected narrative. Do not introduce unobserved mechanics or assume tests occurred.
 

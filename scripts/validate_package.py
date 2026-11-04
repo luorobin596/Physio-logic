@@ -31,11 +31,13 @@ BASE_CLASSES = ['Bone', 'Cartilage', 'Capsule', 'Ligament', 'Tendon', 'Muscle',
                 'Fascia', 'Nerve', 'Vessel', 'Bursa', 'Fat', 'Skin', 'Viscus']
 BASE_SYSTEMS = ['Kinetic chain', 'Myofascial lines', 'Nervous system', 'Vessels',
                 'Autonomic Nervous System', 'lymphatic system']
+SUBJECTIVE_SYSTEMS = ['Myofascial / Fascial system' if name == 'Myofascial lines' else name
+                      for name in BASE_SYSTEMS]
 APPROVED = {
     'table-1-1': (['Tissue category', 'Adjacent possible sources',
                    'Possible sources of referred pain from remote regions'], BASE_CLASSES),
-    'table-1-2': (['Integrated functions or Systems', 'Upstream and Downstream structure',
-                   'Regions This System Passes Through'], BASE_SYSTEMS),
+    'table-1-2': (['System / Category', 'Explanation & Basis',
+                   'Structures & Relationships'], SUBJECTIVE_SYSTEMS),
     'table-2-1': (['Item', 'Content'], ['Functional limitations', 'pain mechanisms',
                    'Symptoms Stage', 'Irritability', 'Contributing factors',
                    'Precautions / Red Flags', 'Impression']),
@@ -57,7 +59,7 @@ def cells(line):
     return [x.strip() for x in line.strip().strip('|').split('|')]
 
 def parse_tables(text):
-    """Read pipe tables with the last recognized approved title as context."""
+    """Read fixed tables; explicitly named system expansions end fixed-table context."""
     found = []
     title = None
     lines = text.splitlines()
@@ -66,6 +68,8 @@ def parse_tables(text):
         heading = re.sub(r'^#+\s+', '', lines[i]).strip()
         if heading in TITLES.values():
             title = next(k for k, v in TITLES.items() if v == heading)
+        elif re.fullmatch(r'System expansion — \S+ — .+', heading):
+            title = None
         if (lines[i].startswith('|') and i + 1 < len(lines)
                 and re.fullmatch(r'[| :\-]+', lines[i + 1]) and '-' in lines[i + 1]):
             headers = cells(lines[i])
@@ -170,7 +174,13 @@ def validate_output(path, mode, symptom_count, contract):
             labels = ('★★★ Strong', '★★ Moderate', '★ Low', '− Currently not supported',
                       '✕ Ruled-out', '⚠ Conflicting evidence', '? Unable to determine / Pending assessment')
             require(all(row[-1].startswith(labels) for row in rows), f'{key}: unapproved status label')
-    require([wanted.index(k) for k in keys] == sorted(wanted.index(k) for k in keys), 'Table groups out of order')
+    # Each symptom's 1.1/1.2 pair precedes synthesis and objective tables.
+    subjective = [key for key in keys if key in ('table-1-1', 'table-1-2')]
+    if subjective:
+        require(subjective == ['table-1-1', 'table-1-2'] * symptom_count,
+                'Subjective table pairs out of order')
+    ranks = [0 if key in ('table-1-1', 'table-1-2') else wanted.index(key) for key in keys]
+    require(ranks == sorted(ranks), 'Table groups out of order')
     for key in wanted:
         expected_count = symptom_count if key in ['table-1-1', 'table-1-2'] else 1
         require(keys.count(key) == expected_count, f'{key}: wrong repetition count')
