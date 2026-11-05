@@ -3,19 +3,20 @@
 ## Purpose and Use
 
 - **Primary use:** Generate anatomically and functionally plausible candidates for each symptom in subjective-analysis Phase 1, Step 3. Explore local, proximal, distal and cross-system relationships; a system explanation need not involve the whole body.
-- **Entry clues:** Use relevant symptom distribution, movement/load or positional behavior, pulling or tightness, injury/surgery/immobilization history, or relationships with neural, circulatory, lymphatic, head/neck or visceral functions. These are prompts for exploration, not fascia-specific diagnostic signs.
-- **Candidate scope:** Explain which structures relate, under what circumstances, how the relationship could participate in the symptom, and which regions or questions deserve exploration. Anatomical and functional reasoning can justify a candidate before direct case evidence is available; a study proving that exact mechanism is not an entry requirement.
-- **Table distinction:** Table 1.1 considers individual adjacent or remote tissue sources. Table 1.2 develops the relationships among structures and functions that could explain or influence the symptom. Do more than repeat tissue names or name a line.
-- **Framework scope:** Include Anatomy Trains, Fascial Manipulation (FM, Stecco Method) and other relevant frameworks, without requiring all frameworks in every case. Direct anatomical/functional reasoning is also appropriate. Describe each framework on its own terms rather than treating its map as equivalent to another map.
-- **Stage boundary:** Preserve symptom IDs and distinguish patient reports, supplied observations, framework knowledge and current inference. Phase 1 need not decide whether candidates are alternatives, coexist or influence each other. Subsequent objective findings update the proposed links; they are not to be invented here.
+- **Entry clues:** Relevant symptom distribution, movement/load or positional behavior, pulling or tightness, injury/surgery/immobilization history, and relationships with neural, circulatory, lymphatic, head/neck or visceral functions provide starting points for exploration.
+- **Candidate scope:** Explain which structures relate, under what circumstances, how the relationship could participate in the symptom, and which regions or questions deserve exploration. Anatomical and functional knowledge supports candidate generation; case relevance can then be clarified through history and examination.
+- **Table distinction:** Table 1.1 considers individual adjacent or remote tissue sources. Table 1.2 develops the relationships among structures and functions that could explain or influence the symptom.
+- **Framework scope:** Select Anatomy Trains, Fascial Manipulation (FM, Stecco Method), other relevant frameworks or direct anatomical/functional reasoning according to the clinical question. Each framework contributes its own organization of the relationships.
+- **Stage boundary:** Preserve symptom IDs and distinguish patient reports, supplied observations, framework knowledge and current inference. Explore shared clues and potential relationships across symptoms; Phase 1 can leave open whether candidates are alternatives, coexist or influence each other. Subsequent objective findings update the proposed links.
 
-Read the relevant sections below: four-core workflow; framework selection and shared example; neural, vascular, lymphatic, headache and visceral directions; verification; Table 1.2 return. Select case-relevant directions rather than running a disease or body-region checklist.
+Read the relevant sections below: tissue function; four-core workflow; framework anatomy and use; neural, vascular, lymphatic, headache and visceral directions; verification; Table 1.2 return. Select the directions relevant to the case.
 
-## Terminology Without a Pathology Prerequisite
+## Tissue Function and Possible Symptom Contributions
 
-- **Working description:** When appropriate, describe possible fascial tightness, altered tissue glide, local tissue-interface change, or a proposed load/coordination relationship. State which structure/region and activity are meant; retain unknowns rather than asserting a restriction without findings.
-- **Densification:** In Stecco's terminology this concerns proposed changes in the loose connective tissue/hyaluronan environment and glide; fibrosis and scar-like adhesions describe other tissue changes. Preserve a supplied term and its source, but ordinary physical examination need not precisely distinguish these pathologies before a candidate can be explored. See [Stecco et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35447719/) for the authors' conceptual distinctions.
-- **Reporting:** A palpated hard area, perceived poor glide and an imaging thickness measurement are different findings. Record what was actually described or measured. Do not turn this distinction into a requirement for research-level tissue identification or a reason to omit reasonable candidates.
+- **Glide:** Fascial layers and surrounding structures move relative to one another. Loose connective tissue and hyaluronan occupy interfaces between fascial sublayers and between fascia and muscle; their properties are relevant to glide and tissue adaptation during movement. See [Stecco et al., 2011](https://pubmed.ncbi.nlm.nih.gov/21964857/).
+- **Tissue change:** Changes in viscosity, stiffness or tissue connections may alter relative movement and tension/load distribution. Stecco uses densification for proposed hyaluronan-related aggregation and glide changes; fibrosis and scar-like adhesions describe other tissue changes. These concepts provide possible explanations for pulling, stiffness or altered movement, without requiring precise pathology identification to begin reasoning. See [Stecco et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35447719/).
+- **Pain:** Fascia can participate in nociception; chemical stimulation of thoracolumbar fascia has experimentally evoked pain. A symptom candidate may concern local tissue pain, referred pain, or an influence on another structure's loading or function. See [Schilder et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24076047/).
+- **Interfaces:** Tissue tension, glide and available space can be considered in relation to nearby nerves, vessels, lymphatics and viscera. Name the intervening function, such as neural movement, perfusion, drainage or organ/body-wall movement, as developed in the relevant sections below.
 
 ## Workflow: Four Core Questions
 
@@ -23,15 +24,15 @@ Read the relevant sections below: four-core workflow; framework selection and sh
 
 1. **Start:** Preserve the symptom's reported location, distribution and character. Review relevant Table 1.1 sources and the history; a localized tissue candidate is not required before a functional relationship can be considered.
 2. **Name structures:** Identify relevant muscles, fascial layers, septa, aponeuroses, retinacula, attachments, scars or organ-associated connective tissues, with the specificity the information permits.
-3. **Describe connections:** Explain the anatomical continuity, attachment or interface, including relationships to nerves, vessels, lymphatics or viscera when relevant. “Chest connects to arm” or “fascia is continuous” alone is insufficient.
-4. **Select a map:** If using a named line, unit, sequence, diagonal or spiral, identify the framework and why that organization is useful here. Check specific anatomy or terminology when needed rather than inventing a route or point.
+3. **Describe connections:** Explain the specific anatomical continuity, attachment or interface, including relationships to nerves, vessels, lymphatics or viscera when relevant.
+4. **Select a map:** If using a named line, unit, sequence, diagonal or spiral, identify the framework and why that organization is useful here. Consult the framework sources for detailed anatomy, routes or point locations as needed.
 
 ### 2. Functional Relationships
 
 1. **Situation:** Identify the relevant posture, joint/segment positions, movement direction, task phase, load, repetition or duration. For visceral-related symptoms, include the relevant filling, emptying, respiratory or other functional context.
 2. **Proposed relationship:** Explore tension/load distribution, relative glide, movement adaptation, support, pressure/space, or the framework's proposed coordination relationship. Include upstream/downstream structures and pathway direction where relevant; use network, regulatory or other functional relationships when appropriate.
 3. **Task participation:** Distinguish moving, controlling, supporting and maintaining position. A whole-task label does not specify every segment's action or every tissue's role.
-4. **Individual status:** Describe a plausible task relationship without assuming that this person has shortening, adhesions, abnormal coordination or a particular mechanical deficit.
+4. **Individual status:** Relate the proposed task relationship to the available reports and findings, retaining the hypothesis status of changes that await assessment.
 
 ### 3. Symptom Connection
 
@@ -39,7 +40,7 @@ Read the relevant sections below: four-core workflow; framework selection and sh
 2. **Explore roles:** Consider possible symptom generation, an influence on load or function, an accompanying/adaptive change, or an unresolved relationship. These are possibilities to describe, not a mandatory classification or ranking.
 3. **History basis:** Use direction/position/load dependence, temporal relationships, relevant previous events and persistent changes. A remote region need not itself hurt to be a reasonable candidate; identify when its relevance is based on anatomy/framework alone and needs case clarification.
 4. **Keep links explicit:** Distinguish local or referred pain, neural symptom pathways, vascular/lymphatic processes and mechanical effects through connected tissues. Referred pain is not evidence that a pain signal travels down a fascial line.
-5. **Retain gaps:** Identify which connection is unestablished. Do not collapse several proposed links into a confirmed statement such as “scar adhesion causes the entire chain's symptoms.” Multiple symptom descriptors or complaints do not automatically share a source.
+5. **Shared clues across symptoms:** Compare distribution, provoking directions, load, timing and previous events across symptoms. Explore myofascial or cross-system candidates that could explain several complaints, and describe how each symptom fits the proposed relationship and what remains to be clarified. Keep the symptom IDs available for tracking while developing this more complete explanation.
 
 ### 4. Exploration Scope
 
@@ -50,27 +51,105 @@ Use these four steps to choose and update regions:
 3. **Make the exploration useful:** For each region, identify what history or examination could clarify its connection. Include prior injuries, surgery, persistent functional changes and position-dependent symptom behavior where relevant; use existing information without repeating questions.
 4. **Adjust with information:** Broaden when task demands, anatomy or new clues suggest additional relationships; focus when some regions better fit the clinical question; change route/framework when the proposed direction no longer fits. Missing remote data remain unknown, not normal or excluded. Prioritizing examination does not remove other reasonable Phase 1 candidates.
 
-## Framework Selection and a Shared Example
+## Framework Anatomy and Use
 
 ### Anatomy Trains — Thomas Myers
 
-- **Organization:** Uses myofascial meridians based on anatomical continuity, direction, depth and attachments, with posture and movement applications. Injury/surgery history and persistent functional change can inform node selection here as well as in FM.
-- **Example anatomy:** Myers distinguishes superficial and deep front arm lines. The deep front arm line includes pectoralis minor/clavipectoral tissues and biceps-related continuity toward the radial forearm and thumb side; the superficial line includes different structures such as pectoralis major. Use the actual region, depth and task to choose relevant candidates, not the word “anterior” alone. See [Myers, The Arm Lines](https://dl.anatomytrains.com/bodyreading1.pdf).
-- **Functional use:** Relate selected nodes to the actual arm position and load. Continuity and its mechanical significance depend on configuration; a line name alone does not describe the patient's task or establish a lesion.
+- **Organization:** Myofascial meridians follow anatomical continuity, fiber direction and depth, with bony attachments, branches and transitions helping define the route. The map supports reasoning about how connected tissues share tension and load across regions. See [Myers' organizing principles](https://dl.anatomytrains.com/hnts-fatatw-2.pdf).
+
+#### Main Body Routes
+
+These are simplified route summaries; anatomical nodes and connections can be detailed for the region being analyzed. The functional questions are prompts for using the map in clinical reasoning.
+
+| Line | Simplified route | Useful functional question |
+| --- | --- | --- |
+| Superficial Back Line | Plantar tissues — calf — hamstrings — sacrotuberous/sacrolumbar tissues — spinal extensors — scalp | Could posterior-chain tension or movement distribution link foot/leg, pelvic and spinal demands? |
+| Superficial Front Line | Toe extensors/anterior leg — quadriceps; anterior trunk/abdominal tissues — sternal tissues — sternocleidomastoid | How do anterior support and movement demands relate across the selected regions and task positions? |
+| Lateral Line | Lateral foot/leg — lateral thigh/pelvis — lateral trunk — neck | Are side-to-side support, lateral movement or unilateral loading clues relevant? |
+| Spiral Line | Cross-body trunk connections; a lower loop through TFL/iliotibial tissues — tibialis anterior — foot arch — fibularis longus — biceps femoris | Could rotation, cross-body relationships or pelvis–foot orientation provide a candidate connection? |
+| Deep Front Line | Deep posterior leg — posterior knee/adductors — pelvic/lumbar tissues — diaphragm — thoracic/neck tissues | Are deep support, breathing-related movement or leg–pelvis–trunk relationships relevant? |
+| Front/Back Functional Lines | Anterior: pectoralis major — abdominal tissues — opposite adductor region. Posterior: latissimus — thoracolumbar/sacral tissues — opposite gluteus maximus/thigh | How might upper-limb load relate to trunk and opposite lower-limb participation? |
+
+Route sources: [Myers' framework chapter](https://elsevier-elibrary.com/contents/fullcontent/58608/epubcontent_v2/OEBPS/xhtml/B9780702034251000532.htm), [original text, especially Chapters 3–9](https://f4academy.f4intranet.com/wp-content/uploads/2024/01/TEMA-1-ANATOMIA-Myers-Vias-anatomicas-Meridianos-miofasciales.pdf), and [Myers' dissection account](https://www.anatomytrains.com/wp-content/uploads/2012/07/dissection.pdf). The Deep Front Line is a framework route; its thoracic/organ-associated connections can prompt specific interface candidates rather than a general visceral diagnosis.
+
+#### Arm Routes
+
+| Line | Simplified route |
+| --- | --- |
+| Superficial Front Arm Line (SFAL) | Pectoralis major/latissimus — medial intermuscular septum — forearm flexors — palm |
+| Deep Front Arm Line (DFAL) | Pectoralis minor/clavipectoral fascia — biceps-related tissues — radial forearm — thumb side |
+| Superficial Back Arm Line (SBAL) | Trapezius — deltoid — lateral intermuscular septum — forearm extensors — dorsum of hand |
+| Deep Back Arm Line (DBAL) | Rhomboids/levator scapulae — rotator cuff — triceps — ulnar forearm — little-finger side |
+
+Source: [Myers, The Arm Lines](https://dl.anatomytrains.com/bodyreading1.pdf).
+
+#### Selecting Lines and Forming Candidates
+
+1. **Locate candidate routes:** Match symptom distribution, relevant tissue depth and injury/surgery history to possible lines and nodes. More than one route may be relevant to a region.
+2. **Place them in the task:** Identify limb/segment positions, where load is applied, and whether the task involves pushing, pulling, gripping, hanging or support. Analyze which selected connections could participate under those conditions. In Myers' account, the pectoralis-minor–upper-arm continuity at the coracoid aligns more closely with a tensile route when the arm is near horizontal or higher; configuration is therefore part of the functional question, not just line selection (original text, Chapter 7, Figure 7.5).
+3. **Reason along the route:** Explore whether activity or tension in one part could alter another node's movement demand, support or loading. Follow proximal or distal connections to useful regions; persistent change after an earlier event can help prioritize a node.
+4. **Compare symptoms:** Look for shared position/load responses or timing across connected regions. Chest pulling, shoulder pain and forearm discomfort may suggest a broader route to explore when their task behavior corresponds; explain the connection to each complaint.
+5. **State the functional candidate:** Describe the selected route, relevant situation and possible effect on the symptom region, such as a chest–arm relationship affecting tension distribution during elevated-arm loading. Identify the next useful region or question through the four-core workflow.
 
 ### Fascial Manipulation — Luigi Stecco and Collaborators
 
-- **Organization:** Links myofascial units with corresponding directional actions into sequences, with diagonals/spirals for additional movement organization. Connections include fascia, biarticular muscle fibers and myotendinous expansions. This is an anatomical and functional model, not only a method for locating past injuries or poor glide.
-- **Directional selection:** The upper-limb antemotion sequence is one author example. Antemotion is a spatial-direction concept, not a universal synonym for anatomical flexion. Clarify each segment's action before choosing a sequence; forward reaching does not mean every joint performs the same direction.
-- **Model findings:** Centers of Coordination (CC) and Centers of Fusion (CF) belong to the model's assessment vocabulary. History may suggest regions to assess; do not invent point abnormalities or densification. The [author framework chapter](https://elsevier-elibrary.com/contents/fullcontent/58608/epubcontent_v2/OEBPS/xhtml/B9780702034251000076.htm) and [official course description](https://fascialmanipulation.com/en/educational/fascial-manipulation-fm-courses/) describe sequences, diagonals/spirals and internal organ-fascial organization.
+#### Units and Directional Organization
 
-### Shared Shoulder Example — Illustrative, Not Patient Data
+- **Myofascial unit:** FM groups muscle fibers and associated fascia by the segment and direction they move. Single-joint and biarticular fibers, fascial continuity and myotendinous expansions link the local unit with other segments.
+- **Directions:** AN (antemotion), RE (retromotion), LA (lateromotion), ME (mediomotion), IR (intrarotation) and ER (extrarotation) describe directional organization. Their anatomical actions depend on the segment.
 
-- **Supplied scenario:** Anterior shoulder pain during forward reaching, worse carrying an object; chest surgery followed by persistent chest pulling. Surgery depth/location, symptom timing and elbow/wrist positions remain unknown.
-- **Myers candidate:** Select relevant chest–shoulder–arm continuities using surgery anatomy and task conditions. Explore whether their movement/tension relationship could influence shoulder demands; consider distal nodes where the selected map provides a reason. Do not assume that chest pulling identifies the deep front arm line.
-- **FM candidate:** Clarify shoulder-girdle, shoulder, elbow and wrist directions, then select relevant units/sequence or combined organization. Explore cross-segment glide/adaptation/coordination relationships; history helps choose segments, not diagnose a CC/CF abnormality.
-- **Common clinical link:** Postoperative persistent pulling makes a regional relationship worth exploring; it does not establish that surgery caused the shoulder pain. Ask about angle, load, symptom onset, persistent postoperative changes and whether chest pulling and shoulder pain vary together.
-- **Framework comparison:** The maps may overlap or produce different candidates. Preserve their separate reasoning rather than equating a Myers line to a Stecco sequence or choosing a winner during Phase 1.
+| Unit | Segment/directional action |
+| --- | --- |
+| AN-SC | Scapular-girdle forward movement |
+| AN-HU | Glenohumeral flexion |
+| AN-CU | Elbow flexion |
+| AN-CA | Wrist flexion |
+| AN-GE | Knee extension |
+
+The knee example shows why the segment/action correspondence matters: AN is not simply a synonym for flexion. See the [Stecco original text's terminology preview](https://img.ibs.it/pdf/9788829928248.pdf).
+
+#### Sequences and Anatomical Links
+
+The upper-limb antemotion sequence connects:
+
+AN-SC — AN-HU — AN-CU — AN-CA — AN-DI
+
+Scapular girdle — shoulder/upper arm — elbow — wrist — fingers
+
+Relevant fascial expansions include:
+
+- Pectoralis major → brachial fascia.
+- Biceps → bicipital aponeurosis → antebrachial fascia.
+- Relevant forearm muscles → antebrachial fascia.
+
+These links support the model's cross-segment tension and coordination reasoning. A sequence is an organization of related units; participation during a particular task is analyzed from the actual segment actions. The [author framework chapter](https://elsevier-elibrary.com/contents/fullcontent/58608/epubcontent_v2/OEBPS/xhtml/B9780702034251000076.htm) describes this sequence and its anatomical basis.
+
+#### Choosing the Scale of Organization
+
+| Organization | Clinical reasoning question | Selection clue |
+| --- | --- | --- |
+| Sequence | How do corresponding directional units relate across segments? | Direction-specific movement, loading or symptom clues. |
+| Diagonal | How is a trajectory between two spatial planes organized? | Combined directions such as forward-and-outward elevation, prompting ante-lateral relationships. |
+| Spiral | How are different or opposing segment directions coordinated in a complex action? | Task-specific combinations of adjacent segment actions and distal/proximal relationships. |
+
+Internal/external rotation also has directional sequences; select the organizational scale from the segment combination, not merely the presence of rotation. See [Stecco's second-level text description](https://staging-piccin.piccin.it/it/physiotherapy/2422-fascial-manipulation-practical-part-second-level-9788829929870.html).
+
+#### CC and CF as Assessment Connections
+
+- **CC, Centre of Coordination:** The model's coordination area within a myofascial unit connects a segment/direction question with a region for fascial assessment. The symptomatic location and this assessment area may differ.
+- **CF, Centre of Fusion:** The model's areas for combined directional organization help connect diagonal/spiral questions with relevant assessment regions.
+
+These concepts help select regions from functional clues. Subjective analysis can identify relevant units/segments and later incorporate actual movement and CC/CF palpation descriptions. See the [official FM course organization](https://fascialmanipulation.com/en/educational/fascial-manipulation-fm-courses/).
+
+#### Selecting Relationships and Forming Candidates
+
+1. **Identify actions:** Relate each symptom to actual segment directions, positions and loads. For a whole task such as reaching, identify shoulder-girdle, shoulder, elbow and wrist/hand participation individually.
+2. **Find shared directional organization:** Corresponding clues during shoulder flexion, elbow flexion and relevant wrist/hand activity can prompt an upper-limb antemotion candidate. Choose other sequences when their actions fit the presentation.
+3. **Select segments:** Use prior injuries, immobilization, surgery and persistent activity changes to select local, proximal, distal and related directional regions for exploration. History is useful here and in Myers' framework.
+4. **Choose the scale:** Develop same-sequence relationships for directional patterns; consider diagonals or spirals when combined-plane or differing segment actions better describe the task.
+5. **Form a shared or single-symptom candidate:** For example, shoulder pain, anterior-elbow pulling and forearm discomfort with corresponding directional/load clues can prompt a cross-segment antemotion hypothesis. Explain how the selected muscle/fascial relationships could participate in each symptom, then identify useful questions and assessment regions.
+
+FM's organ-fascial units and apparatus fascial sequences/catenaries extend the model to internal functions, as outlined in the official course description. Select the specific organ/function and connections using the visceral section below. Both frameworks supply anatomical and functional maps; overlapping regions can yield complementary candidate explanations while retaining each map's organization.
 
 ## Relevant Symptom and Cross-System Directions
 
@@ -108,7 +187,7 @@ Select from these directions, expanding beyond them when relevant anatomy/functi
 
 - **Scope:** Explore specific organs and their connective-tissue coverings, supports, attachments and interfaces with body wall or other systems. Relate anatomy to support, relative movement, pressure or neural/vascular/lymphatic relationships. Organ-associated fasciae vary by site; see [Stecco et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28466969/).
 - **Functional selection:** Use breathing, trunk posture/movement, meals, filling, defecation or voiding relationships as appropriate. Surgery is one clue, not a prerequisite; organ dysfunction or pain may also influence surrounding tissue tension, breathing and movement.
-- **Example:** After lower abdominal surgery, trunk-extension pulling can prompt abdominal-wall–surgical-region–organ-interface candidates. If bloating is separately reported, preserve its symptom ID and develop its own candidates; do not merge it with pulling by assuming a common fascial cause. Without surgery, filling-related discomfort with positional variation can still prompt organ/support-tissue–body-wall or pelvic-floor relationships.
+- **Example:** After lower abdominal surgery, trunk-extension pulling can prompt abdominal-wall–surgical-region–organ-interface candidates. If bloating is also reported, compare timing, posture and organ-function clues to explore a shared or related process, explaining the connection to each symptom while retaining their IDs. Without surgery, filling-related discomfort with positional variation can still prompt organ/support-tissue–body-wall or pelvic-floor relationships.
 - **FM use:** Where useful, identify the relevant organ-fascial unit or apparatus fascial sequence/catenary, its case basis and selected regions. These are the author's organizing concepts, not automatic diagnoses of digestive, urinary or autonomic dysfunction.
 - **Follow-up and responsibilities:** Clarify the actual organ/procedure, tissue depth if known, onset/course and functional timing. Keep individual visceral sources in Table 1.1 and organ/disease/regulatory candidates in their appropriate systems. Mechanical fascial relationships, visceral referral and autonomic regulation are distinct proposed links; use the [autonomic guide](autonomic-nervous-system-analysis.md) for a specific regulatory candidate. [NIDDK](https://www.niddk.nih.gov/health-information/digestive-diseases/abdominal-adhesions) describes clinically recognized abdominal adhesions, many asymptomatic; use this as a possible context rather than a prerequisite or default explanation.
 
@@ -130,7 +209,7 @@ Update the particular claim rather than assigning one verdict to an entire frame
 4. **Redirect:** Other tissue/system findings better explain the complaint or the chosen route no longer fits.
 5. **Remain unknown:** Missing, unsuitable or non-symptom-reproducing assessment is not by itself exclusion.
 
-For the shoulder example, chest pulling during local tissue assessment that differs from familiar shoulder pain establishes a local response, not their connection. A position change reducing shoulder pain supports a condition-dependent response; keep the proposed chest–arm link open until the relevant observations correspond. For Myers, update the selected nodes/relationships; for FM, compare directional and segment findings with model-based palpation descriptions. Do not turn a finding at one node into dysfunction throughout the map.
+For Myers, update selected nodes and their task/load relationships. For FM, compare directional and segment findings with model-based palpation descriptions. Across symptoms, assess whether proposed shared relationships correspond to each complaint and refine the overall explanation as data accumulate.
 
 ## Return to Table 1.2 and Stage Continuity
 
@@ -151,12 +230,9 @@ Apply the clinical contract immediately, without waiting for fascial tables or f
 - **Headache:** Sudden severe headache, new neurological deficit or altered consciousness requires urgent/emergency assessment; substantial pattern changes and other concerning features need appropriate investigation/referral. See [NICE CG150](https://www.nice.org.uk/guidance/cg150/chapter/recommendations).
 - **Abdominal:** Pain with vomiting, marked distension and inability to pass gas/stool raises possible obstruction and needs immediate medical assessment, as described by NIDDK above.
 
-## Evidence Use and Verification
+## Interpretation and Sources
 
-- **Reasoning priority:** Generate plausible candidates from anatomy and function, with patient information or an explicit need to clarify case relevance. Do not use lack of direct research on the exact candidate as a blanket reason to suppress exploration.
-- **Knowledge status:** Distinguish established anatomical/physiological relationships, author clinical frameworks and case-level inference. The four-core workflow is project reasoning guidance, not a validated diagnostic algorithm. Sources establish different kinds of support, not equal validation of every claim.
-- **Research examples:** [Schilder et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24076047/) demonstrates experimentally evoked thoracolumbar fascial pain in healthy volunteers, not shoulder-source diagnosis. [Borstad and Ludewig, 2005](https://pubmed.ncbi.nlm.nih.gov/15901124/) relates pectoralis-minor length groups to scapular motion in pain-free people, not validation of a full fascial line. [Langevin et al., 2011](https://pubmed.ncbi.nlm.nih.gov/21929806/) reports lower thoracolumbar shear strain in a chronic-back-pain group, leaving movement/tissue causal direction open. These illustrate separate questions about tissue, function and symptoms; they are not mandatory case tests.
-- **Assessment examples:** [FM pilot study, 2022](https://pubmed.ncbi.nlm.nih.gov/35244363/) investigates palpation-selected sites, ultrasound thickness and immediate pain response; it does not provide a universal test for a specific molecular lesion or remote mechanism. [Shoulder symptom-modification study, 2018](https://pubmed.ncbi.nlm.nih.gov/29682312/) examines assessment reliability and clinical associations, not fascia-specific causal identification.
-- **Verification checklist:** Confirm specific connections, functional context, symptom link and justified exploration scope; distinguish supplied findings from candidates; preserve reasonable remote/cross-system possibilities and missing data; avoid requiring pathology precision, complete maps or every framework; keep the current table contract and stage stop.
+- **Clinical wording:** Present explanations as candidates, with diagnostic wording matched to the available information. Anatomical knowledge and author frameworks provide reasoning background; patient reports and examination data establish the individual case basis under the clinical contract.
+- **Reference use:** Sources accompany the anatomy, functional concepts and clinical directions they support. The four-core workflow and functional selection questions are project reasoning guidance. Consult current primary/authoritative sources for detailed routes, framework terms, diagnostic criteria or assessment methods as needed.
 
-Sources reviewed 2026-11-04. Check current primary/authoritative sources when a specific anatomy, framework term, diagnostic criterion or assessment method needs clarification; preserve source-specific population and method limits. This reference supplies candidate-generation and update guidance, not treatment protocols.
+Sources reviewed 2026-11-05. This reference supplies candidate-generation and update guidance, not treatment protocols.
