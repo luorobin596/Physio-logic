@@ -245,3 +245,30 @@ Expected:
 - Explain the specific missing-data limitations and ask whether a limited preliminary analysis is wanted before producing candidate-source tables
 - A complete-analysis request alone does not authorize the limited-analysis exception
 - Retain unknowns and prioritize any urgent cues; do not mark intake complete
+
+
+## E24 — Multi-symptom Phase 2 and user hypothesis checkpoint
+
+Mode: subjective-synthesis
+
+> Phase 1 is complete with S1 mapped to instance 1 and S2 mapped to instance 2. Continue to Phase 2 using the existing history and analysis. I have not yet supplied a synthesis hypothesis.
+
+Expected:
+- Preserve S1/S2 grouping and output Table2.1.1 Preliminary Hypothesis — S1 and Table2.1.2 Preliminary Hypothesis — S2, with the seven approved rows ending in Hypothesis
+- Produce exactly one Table2.2 History timeline-S combining all reported events and symptom changes, identifying relevant symptom IDs
+- Use Pending user hypothesis in both Hypothesis cells; present the first six rows and timeline before asking for the user's own hypotheses and their symptom scope
+- Do not supply a system synthesis hypothesis through other sections or verification recommendations; existing Phase 1 candidates and first-six-row analysis remain available
+- Wait before objective handoff; preserve unanswered screening questions and urgent assessment priority
+
+## E25 — User hypothesis, explicit decline and complete-analysis continuation
+
+Mode: complete (interactive checkpoint)
+
+> Analyze the available complete assessment in one combined flow. After the symptom profiles and shared timeline, ask for my hypothesis. My later response may be a hypothesis covering S1 and S2, or an explicit statement that I have no hypothesis.
+
+Expected:
+- The combined request bypasses stage-continuation confirmations but not the user-hypothesis checkpoint; do not treat silence as a decline
+- On a supplied hypothesis, record it as user-proposed in the relevant symptom tables, preserving scope/source; identify questions or findings that could change it without treating it as confirmed
+- On explicit decline, record User has not proposed a hypothesis; do not generate a replacement hypothesis at the subjective checkpoint
+- Resume the already-authorized combined analysis with available objective findings, preserving the table-instance mapping in one 3.1 and 3.2 per symptom
+- If the hypothesis or explicit decline was already provided for this analysis, do not ask again; final Table 4 and Impression remain the later evidence-synthesis stage

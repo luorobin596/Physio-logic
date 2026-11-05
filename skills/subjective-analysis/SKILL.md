@@ -28,7 +28,7 @@ Use for symptom/history analysis, subjective synthesis, or the subjective portio
 - For each distinct symptom identified in the history or intake handoff, perform Steps 1–3 in order.
 - **Symptom templates:** Read [Table 1.1](assets/table-1-1.md) and [Table 1.2](assets/table-1-2.md); replace authoring placeholders with candidate explanations or explicit unknowns.
 - Repeat each table for the actual symptom count, with stable IDs; one symptom yields one pair, four symptoms four pairs.
-- Never pad or truncate to three.
+- Apply the clinical contract's third-level instance numbering and append the stable symptom ID to each displayed title; retain the same mapping in subsequent table families. Never pad or truncate to three.
 - These are three reasoning steps within Phase 1, without additional confirmation stops between them.
 
 #### Step 1: Adjacent Tissue Candidates — Table 1.1, Column 2
@@ -96,29 +96,33 @@ Use for symptom/history analysis, subjective synthesis, or the subjective portio
 - Address potentially urgent concerns immediately rather than waiting to finish the steps.
 - **Subjective stop:** Stop and invite a clear forward request before Table 2, unless a complete combined analysis was explicitly requested.
 
-### Phase 2: Preliminary Hypotheses and History Timeline
+### Phase 2: Symptom Profiles, User Hypotheses and History Timeline
 
 1. **Mechanism guidance:** Read [pain-mechanism guide](../../references/pain-mechanisms.md) when interpreting mechanisms; consult [discussion catalog](../../references/pain-discussion-catalog.md) only when relevant, with its evidence limits.
-2. **Preliminary hypotheses:** Fill [Table 2.1](assets/table-2-1.md).
+2. **Per-symptom profile:** Produce one [Table 2.1](assets/table-2-1.md) for each Phase 1 symptom, preserving its grouping, ID and table-instance number (for example, Table2.1.1 — S1 and Table2.1.2 — S2, with the asset title text retained).
    - Preserve Item/Content and all rows, including SEPARATE Symptoms Stage and Irritability.
    - Stage describes reported duration/course; irritability considers provocation, response and settling.
    - Do not infer either from the other or solely from a pain score.
    - Contributing factors remains open to all case-supported factors.
-3. **History timeline:** Fill [Table 2.2](assets/table-2-2.md) using only reported events/times, preserving the exact History timeline-S title.
+   - The final row is Hypothesis, not Impression. Initially enter Pending user hypothesis; do not generate a synthesis hypothesis for the user.
+3. **Shared history timeline:** Produce exactly one [Table 2.2](assets/table-2-2.md) for the whole case, combining all reported events and symptom changes using only reported events/times. Preserve the exact History timeline-S title without a third-level suffix; identify relevant symptom IDs in event cells.
    - Do not invent earlier history or a fixed number of events.
 4. **Follow-up lists:** Outside the tables, include exactly these two named lists, with as many material items as needed rather than a fixed quota:
    - Suggested Follow-Up Questions & Recommended Additional Information
    - Next Steps in Clinical Reasoning (How to Confirm or Refute the Hypothesis)
 5. **Required sections:** Include the three clinical-contract sections, avoiding duplicate evidence.
-6. **Hypothesis verification:** Identify which questions/tests could change a hypothesis.
-7. **Objective handoff:** End by requesting objective findings; do not generate Tables 3 or 4 from missing data.
+6. **User-hypothesis checkpoint:** After presenting the first six rows for each symptom and the shared timeline, ask whether the user has hypotheses based on the analysis, and which symptoms they concern. Stop for the response before objective handoff, including in complete-analysis mode. Do not repeat the question if the user has already supplied hypotheses for this analysis or explicitly declined.
+   - Add supplied hypotheses to the relevant Hypothesis cells, labeled user-proposed with source and symptom scope; reference a shared hypothesis across the relevant tables.
+   - After an explicit decline, enter User has not proposed a hypothesis; do not supply one on the user's behalf. Silence or a missing response is still pending, not a decline.
+   - Until a hypothesis is supplied, use the two lists and required sections for information gaps and assessment questions; do not introduce a system synthesis hypothesis indirectly through those sections. With a user hypothesis, identify which questions/tests could support, refute or change it.
+7. **Objective handoff:** After recording the user's hypotheses or explicit decline, request objective findings. Do not generate Tables 3 or 4 from missing data. A hypothesis response alone does not authorize a later staged transition.
 
 ### Phase 3: Handoff or Complete-Analysis Continuation
 
 - **Stage continuity:** For a staged handoff, preserve the clinical contract's case scope, data version, symptom IDs, source-labeled findings, hypotheses, unknowns and completed tables.
   - State that objective findings are needed next.
 
-- Use the same resources and table order without the internal subjective stop when the user explicitly requests one combined analysis.
+- Use the same resources and table order without the Phase 1 continuation stop when the user explicitly requests one combined analysis. The user-hypothesis checkpoint still applies; resume the authorized combined analysis after that response when required data are available.
 - Follow stage routing for the objective and Impression portions; do not silently omit them or invent their templates.
 - Keep assumptions distinct from provided facts and identify limitations when only partial data exist.
 
@@ -129,12 +133,13 @@ Before delivering the current stage, confirm:
 - [ ] The lightweight entry check reuses available history and stable symptom IDs; required gaps or unresolved grouping are clarified through history-intake without repeating a completed intake.
 - [ ] Required history is sufficient for the case and each symptom, or an explicitly agreed limited-analysis exception and its gaps remain visible.
 - [ ] Relevant unanswered red-flag questions remain visible and receive targeted follow-up; urgent cues take priority throughout analysis.
-- [ ] When produced, Tables 1.1 and 1.2 match the actual symptom count and retain stable symptom IDs, base rows and columns.
+- [ ] When produced, Tables 1.1 and 1.2 match the actual symptom count and retain stable symptom IDs, third-level instance numbers, base rows and columns.
 - [ ] Table 1.1 considers all 13 categories in sequence: adjacent candidates in column 2, then remote candidates in column 3, with a basis and uncertainty for each candidate.
 - [ ] Not applicable has a reason and denotes inapplicability; missing information remains unknown rather than inapplicable or negative.
 - [ ] Table 1.2 broadens to system/disease explanations with case relevance, permits additional categories and does not reduce every explanation to a kinetic chain.
 - [ ] Table 1.2 uses System / Category, Explanation & Basis and Structures & Relationships; relevant anatomical regions and material uncertainty remain explicit. Optional expansions follow the same symptom's table, identify the symptom/system/candidate and preserve stage boundaries without duplicating the summary or requiring all systems to expand.
-- [ ] If subjective synthesis is authorized, Tables 2.1 and 2.2 retain all required items and the exact timeline title; Stage and Irritability have separate bases.
+- [ ] If subjective synthesis is authorized, one Table 2.1 per Phase 1 symptom preserves grouping, IDs, instance mapping and all required rows; exactly one case-wide Table 2.2 retains the exact timeline title. Stage and Irritability have separate bases.
+- [ ] The Hypothesis row records only the user-proposed hypothesis with provenance, Pending user hypothesis, or an explicit decline. The checkpoint precedes objective handoff, including combined analysis, and no substitute system synthesis hypothesis appears elsewhere.
 - [ ] When produced, the timeline contains only reported events/times; unknowns and current inferences are distinct from supplied facts.
 - [ ] When produced, subjective synthesis includes both named follow-up/verification lists, with material items rather than a fixed quota.
 - [ ] The current table group includes Red Flags, Yellow Flags and Reasoning Rationale and Limitations as required by the clinical contract.

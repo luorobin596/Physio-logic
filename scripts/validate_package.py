@@ -20,6 +20,7 @@ TITLES = {
     'table-3-2': 'Objective Table 3.2 Regions Contributing to Symptoms:',
     'table-4': 'Table4 Updated Hypothesis',
 }
+PER_SYMPTOM = {'table-1-1', 'table-1-2', 'table-2-1', 'table-3-1', 'table-3-2'}
 MODES = {
     'subjective-initial': ['table-1-1', 'table-1-2'],
     'subjective-synthesis': ['table-2-1', 'table-2-2'],
@@ -40,7 +41,7 @@ APPROVED = {
                    'Structures & Relationships'], SUBJECTIVE_SYSTEMS),
     'table-2-1': (['Item', 'Content'], ['Functional limitations', 'pain mechanisms',
                    'Symptoms Stage', 'Irritability', 'Contributing factors',
-                   'Precautions / Red Flags', 'Impression']),
+                   'Precautions / Red Flags', 'Hypothesis']),
     'table-2-2': (['Time Point', 'Symptom or Event'], None),
     'table-3-1': (['Structural classification', 'Specific structure', 'Supporting evidence',
                    'Negating evidence', 'Level of Evidence Support'], BASE_CLASSES),
@@ -58,6 +59,21 @@ def require(condition, message):
 def cells(line):
     return [x.strip() for x in line.strip().strip('|').split('|')]
 
+def table_heading(heading):
+    """Return family, instance and symptom ID; assets use unnumbered family titles."""
+    for key, title in TITLES.items():
+        if heading == title:
+            return key, None, None
+        if key in PER_SYMPTOM:
+            number = key.removeprefix('table-').replace('-', '.')
+            before, after = title.split(number, 1)
+            pattern = (re.escape(before + number) + r'\.([1-9][0-9]*)' +
+                       re.escape(after) + r' — (\S+)(?: — .+)?')
+            match = re.fullmatch(pattern, heading)
+            if match:
+                return key, int(match[1]), match[2]
+    return None
+
 def parse_tables(text):
     """Read fixed tables; explicitly named system expansions end fixed-table context."""
     found = []
@@ -66,8 +82,9 @@ def parse_tables(text):
     i = 0
     while i < len(lines):
         heading = re.sub(r'^#+\s+', '', lines[i]).strip()
-        if heading in TITLES.values():
-            title = next(k for k, v in TITLES.items() if v == heading)
+        matched = table_heading(heading)
+        if matched:
+            title = matched[0]
         elif re.fullmatch(r'System expansion — \S+ — .+', heading):
             title = None
         if (lines[i].startswith('|') and i + 1 < len(lines)
@@ -182,8 +199,24 @@ def validate_output(path, mode, symptom_count, contract):
     ranks = [0 if key in ('table-1-1', 'table-1-2') else wanted.index(key) for key in keys]
     require(ranks == sorted(ranks), 'Table groups out of order')
     for key in wanted:
-        expected_count = symptom_count if key in ['table-1-1', 'table-1-2'] else 1
+        expected_count = symptom_count if key in PER_SYMPTOM else 1
         require(keys.count(key) == expected_count, f'{key}: wrong repetition count')
+    # Numbered display titles must carry the same instance-to-symptom mapping in every family.
+    headings = [matched for line in text.splitlines()
+                if (matched := table_heading(re.sub(r'^#+\s+', '', line).strip()))]
+    mappings = []
+    for key in wanted:
+        if key not in PER_SYMPTOM:
+            continue
+        instances = [(number, symptom) for family, number, symptom in headings if family == key]
+        require(len(instances) == symptom_count and all(n and sid for n, sid in instances),
+                f'{key}: numbered titles and symptom IDs required')
+        require(len({n for n, _ in instances}) == symptom_count and
+                len({sid for _, sid in instances}) == symptom_count,
+                f'{key}: duplicate instance number or symptom ID')
+        mappings.append(dict(instances))
+    require(all(mapping == mappings[0] for mapping in mappings),
+            'Symptom ID-to-instance mapping differs across table families')
     for heading in ['Red Flags', 'Yellow Flags', 'Reasoning Rationale and Limitations']:
         require(re.search(r'^#+ '+re.escape(heading)+r'\s*$', text, re.M), f'Missing {heading} section')
     if mode in ['complete', 'impression']:

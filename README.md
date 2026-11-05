@@ -7,7 +7,7 @@ A skill-only plugin for physical therapists to collect and clarify history, anal
 | Skill | Output |
 | --- | --- |
 | [history-intake](skills/history-intake/SKILL.md) | History clarification, symptom grouping, missing-data follow-up and readiness for subjective analysis |
-| [subjective-analysis](skills/subjective-analysis/SKILL.md) | Tables 1.1/1.2 per actual symptom, then preliminary hypotheses and timeline in 2.1/2.2 |
+| [subjective-analysis](skills/subjective-analysis/SKILL.md) | Tables 1.1/1.2 per symptom, then per-symptom profiles, user hypotheses and one shared timeline in 2.1/2.2 |
 | [objective-analysis](skills/objective-analysis/SKILL.md) | Structural/system evidence tables 3.1/3.2, support/opposition and missing information |
 | [impression](skills/impression/SKILL.md) | Concise Table 4 and full Impression; optional versions on request |
 
@@ -15,17 +15,17 @@ Provide de-identified assessment data and ask for the relevant stage. Use **hist
 
 Subjective analysis example:
 
-> Analyze my subjective physical therapy assessment using the fixed tables. Identify missing information and preliminary hypotheses without inventing results.
+> Analyze my subjective physical therapy assessment using the fixed tables. Identify missing information and candidate explanations without inventing results; ask for my synthesis hypotheses after the symptom profiles and shared timeline.
 
 For a complete case:
 
 > Analyze the complete assessment in one combined flow through full Impression, using subjective-analysis, objective-analysis and impression in that order.
 
-All runtime output defaults to English. An explicit request may change narrative/filled-cell language; approved table titles and headers stay English. Staged operation accepts Next step, 下一步, 繼續 or another clear forward request. Complete-analysis requests bypass intermediate stops. The initial subjective tables precede preliminary synthesis; objective tables precede the final synthesis.
+All runtime output defaults to English. An explicit request may change narrative/filled-cell language; approved table titles and headers stay English. Staged operation accepts Next step, 下一步, 繼續 or another clear forward request. Complete-analysis requests bypass stage-continuation stops but retain the user-hypothesis checkpoint before objective analysis. The initial subjective tables precede preliminary synthesis; objective tables precede the final synthesis.
 
 ## What stays fixed and what can vary
 
-Seven Markdown table assets implement six original table groups (Table 2 has two sub-tables). Headers, base rows and order are fixed. Symptom count follows the supplied case, not a three-symptom quota. System rows and Table 3.1 categories may be extended while retaining base rows. Symptoms Stage and Irritability are separate. Contributing factors remains open to all case-supported factors.
+Seven Markdown table assets implement six original table groups (Table 2 has two sub-tables). Headers, base rows and order are fixed. Symptom count follows the supplied case, not a three-symptom quota. System rows and Table 3.1 categories may be extended while retaining base rows. Per-symptom families 1.1, 1.2, 2.1, 3.1 and 3.2 use third-level instance numbers and symptom IDs in displayed titles, even for one symptom (for example, `Table2.1.1 Preliminary Hypothesis — S1`). Preserve the ID-to-instance mapping across stages. Table 2.2 remains one shared case timeline; Table 4 remains case-wide. Table 2.1 ends with Hypothesis: present the first six rows and timeline, then ask for the user's hypotheses before objective handoff. Record only user-proposed hypotheses or an explicit decline; a pending response is not a decline. Symptoms Stage and Irritability are separate. Contributing factors remains open to all case-supported factors.
 
 Approved support labels: ★★★ Strong, ★★ Moderate, ★ Low, − Currently not supported, ✕ Ruled-out, ⚠ Conflicting evidence, ? Unable to determine / Pending assessment. Each needs its case rationale; these are not numerical probabilities or research grades. Unknown findings are never negative by default.
 

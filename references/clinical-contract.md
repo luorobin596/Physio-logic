@@ -48,12 +48,26 @@ Optional subjective system expansions are extensions of Table 1.2, not additiona
 
 Keep original precaution fields consistent with these sections. Do not state No red flags merely because none were recorded. Where evidence is insufficient use Insufficient information to determine at present. End with the current stage, outstanding data and the appropriate next action; do not add unrequested treatment plans or exercise prescriptions.
 
+## Symptom-table numbering
+
+Tables 1.1, 1.2, 2.1, 3.1 and 3.2 are per-symptom table families. Produce one instance of each applicable family for every symptom, preserving the established grouping and stable symptom IDs. Add a third-level positive instance number to the displayed table number, even for a single symptom, and append the symptom ID to the title. For example: `Table2.1.2 Preliminary Hypothesis — S2` (an optional symptom name may follow ` — `). Retain the remaining English title text, headers and base rows from the family asset; assets themselves define the unnumbered family schema.
+
+Assign each symptom an instance number at its first analysis and reuse that number across families and handoffs: S1 may have 1.1.1, 1.2.1, 2.1.1, 3.1.1 and 3.2.1; S2 may have the corresponding .2 instances. An instance number is a table locator, not a replacement for the symptom ID and not necessarily the numeric part of that ID. Preserve the ID-to-instance mapping when reordering output. For a split or merge, explicitly record the old/new symptom correspondence and table mapping; do not silently renumber existing symptoms.
+
+Table 2.2 is one case-wide timeline combining all reported events and symptom changes; identify the relevant symptom IDs within event cells where applicable. Keep its exact family title without a third-level suffix. Table 4 remains the case-wide final synthesis without a third-level suffix.
+
+## Subjective user-hypothesis boundary
+
+Table 2.1 ends with Hypothesis, not Impression. Present each symptom's first six rows and the shared timeline before asking whether the user has hypotheses based on the analysis, including which symptoms each hypothesis concerns. Until the user responds, retain `Pending user hypothesis` in that row. Record supplied hypotheses as user-proposed, with their source and symptom scope; a shared hypothesis may be referenced in all relevant symptom tables. If the user explicitly declines, record `User has not proposed a hypothesis`. Do not author, rank or insert a system-generated synthesis hypothesis into this row, the reasoning sections or verification recommendations as a substitute. Phase 1 candidate exploration and the existing first-six-row analysis remain in scope.
+
+While waiting, follow-up lists and reasoning sections may summarize missing information and assessment questions, but must not introduce a new system synthesis hypothesis. Once supplied, identify what could support or refute the user's hypothesis without treating it as confirmed. Urgent risk assessment remains a priority regardless of hypothesis status.
+
 ## Handoff and updates
 
 - **Symptom ID continuity:** Carry the symptom IDs established in history-intake or at direct subjective entry through subjective analysis, objective analysis and the end of Impression. When symptoms are consolidated or merged during analysis, state the grouping change and preserve the correspondence between the original IDs and the merged item.
 - **System-label continuity:** The subjective Myofascial / Fascial system category maps to the existing Myofascial lines row in objective Table 3.2. Preserve the actual candidate and symptom ID across this label difference; do not narrow the candidate to a named line or change the objective schema.
 
-Preserve the case code/scope, dates and data version, stable symptom IDs, source-labeled facts, hypotheses with status/reasons, contradictions, unknowns, completed tables and current stage. This is visible-context continuity, not cross-chat memory. A new chat needs the source data or a handoff summary. When corrected data arrive, update the affected tables and conclusions and say what changed; do not treat an ordinary question or new data as permission to advance a staged stop.
+Preserve the case code/scope, dates and data version, stable symptom IDs and their table-instance mapping, source-labeled facts, user-hypothesis status/source, hypotheses with status/reasons, contradictions, unknowns, completed tables and current stage. This is visible-context continuity, not cross-chat memory. A new chat needs the source data or a handoff summary. When corrected data arrive, update the affected tables and conclusions and say what changed; do not treat an ordinary question or new data as permission to advance a staged stop.
 
 ## Clinical reference basis
 

@@ -8,4 +8,4 @@
 | Irritability | [provocation, response, settling time; level with basis or unknown] |
 | Contributing factors | [case-supported content or unknown] |
 | Precautions / Red Flags | [case-supported content or unknown] |
-| Impression | [preliminary synthesis; not objectively confirmed] |
+| Hypothesis | [Pending user hypothesis; user-proposed hypothesis with source and symptom scope; or User has not proposed a hypothesis after explicit decline] |

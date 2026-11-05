@@ -25,7 +25,8 @@ Use for objective assessment analysis, updating subjective hypotheses, or the ob
    - List unavailable subjective context and contradictions instead of inventing them.
 
 4. **Missing findings:** Identify missing objective findings and request the information needed for the current analysis; do not invent findings to complete a table.
-5. **Stage and mode:** Determine the current stage and whether a complete combined analysis was explicitly requested.
+5. **Symptom tables:** Produce one Table 3.1 and one Table 3.2 for each established symptom. Follow the clinical contract's third-level instance numbering, append the symptom ID and preserve the subjective ID-to-instance mapping. When entering directly, establish the mapping from available symptom grouping. Retain the asset title text, columns and base rows; findings shared across symptoms keep their source and symptom scope.
+6. **Stage and mode:** Determine the current stage and whether a complete combined analysis was explicitly requested.
 
 ### Phase 1: Structural Evidence Analysis
 
@@ -42,7 +43,7 @@ Use for objective assessment analysis, updating subjective hypotheses, or the ob
 1. **System template:** Read [Table 3.2](assets/table-3-2.md).
 2. **Column structure:** Use FIVE distinct columns, including separate Upstream and Downstream and Regions.
 3. **System coverage:** Keep the six base system rows; append relevant other categories when needed.
-4. **Title and status:** Use the exact corrected Regions title and an approved involvement status with reason.
+4. **Title and status:** Retain the exact corrected Regions title text with the symptom-instance number and ID and an approved involvement status with reason.
 
 - **Kinetic-chain reasoning:** When movement-related hypotheses are relevant, read the shared [kinetic-chain guide](../../references/kinetic-chain-analysis.md). Use supplied observations and examination findings to evaluate restrictions, control patterns and symptom relationships, and return the findings to Tables 3.1/3.2 as appropriate.
 
@@ -67,6 +68,7 @@ When interpreting pain descriptors, consult the shared [pain-mechanism guide](..
 
 Before delivering the current stage, confirm:
 
+- [ ] Tables 3.1 and 3.2 each match the actual symptom count and preserve the symptom grouping, stable IDs and third-level table-instance mapping.
 - [ ] Table 3.1 retains its five columns and 13 base structural rows in order.
 - [ ] Table 3.2 retains five distinct columns, separate Upstream and Downstream and Regions, the corrected Regions title and six base system rows.
 - [ ] Supporting/opposing findings have source locators and preserve units, side, time and test conditions; missing findings remain unknown rather than negative.
