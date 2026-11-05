@@ -57,39 +57,31 @@ Use these four steps to choose and update regions:
 
 - **Organization:** Myofascial meridians follow anatomical continuity, fiber direction and depth, with bony attachments, branches and transitions helping define the route. The map supports reasoning about how connected tissues share tension and load across regions. See [Myers' organizing principles](https://dl.anatomytrains.com/hnts-fatatw-2.pdf).
 
-#### Main Body Routes
-
-These are simplified route summaries; anatomical nodes and connections can be detailed for the region being analyzed. The functional questions are prompts for using the map in clinical reasoning.
-
-| Line | Simplified route | Useful functional question |
-| --- | --- | --- |
-| Superficial Back Line | Plantar tissues — calf — hamstrings — sacrotuberous/sacrolumbar tissues — spinal extensors — scalp | Could posterior-chain tension or movement distribution link foot/leg, pelvic and spinal demands? |
-| Superficial Front Line | Toe extensors/anterior leg — quadriceps; anterior trunk/abdominal tissues — sternal tissues — sternocleidomastoid | How do anterior support and movement demands relate across the selected regions and task positions? |
-| Lateral Line | Lateral foot/leg — lateral thigh/pelvis — lateral trunk — neck | Are side-to-side support, lateral movement or unilateral loading clues relevant? |
-| Spiral Line | Cross-body trunk connections; a lower loop through TFL/iliotibial tissues — tibialis anterior — foot arch — fibularis longus — biceps femoris | Could rotation, cross-body relationships or pelvis–foot orientation provide a candidate connection? |
-| Deep Front Line | Deep posterior leg — posterior knee/adductors — pelvic/lumbar tissues — diaphragm — thoracic/neck tissues | Are deep support, breathing-related movement or leg–pelvis–trunk relationships relevant? |
-| Front/Back Functional Lines | Anterior: pectoralis major — abdominal tissues — opposite adductor region. Posterior: latissimus — thoracolumbar/sacral tissues — opposite gluteus maximus/thigh | How might upper-limb load relate to trunk and opposite lower-limb participation? |
-
-Route sources: [Myers' framework chapter](https://elsevier-elibrary.com/contents/fullcontent/58608/epubcontent_v2/OEBPS/xhtml/B9780702034251000532.htm), [original text, especially Chapters 3–9](https://f4academy.f4intranet.com/wp-content/uploads/2024/01/TEMA-1-ANATOMIA-Myers-Vias-anatomicas-Meridianos-miofasciales.pdf), and [Myers' dissection account](https://www.anatomytrains.com/wp-content/uploads/2012/07/dissection.pdf). The Deep Front Line is a framework route; its thoracic/organ-associated connections can prompt specific interface candidates rather than a general visceral diagnosis.
-
-#### Arm Routes
-
-| Line | Simplified route |
-| --- | --- |
-| Superficial Front Arm Line (SFAL) | Pectoralis major/latissimus — medial intermuscular septum — forearm flexors — palm |
-| Deep Front Arm Line (DFAL) | Pectoralis minor/clavipectoral fascia — biceps-related tissues — radial forearm — thumb side |
-| Superficial Back Arm Line (SBAL) | Trapezius — deltoid — lateral intermuscular septum — forearm extensors — dorsum of hand |
-| Deep Back Arm Line (DBAL) | Rhomboids/levator scapulae — rotator cuff — triceps — ulnar forearm — little-finger side |
-
-Source: [Myers, The Arm Lines](https://dl.anatomytrains.com/bodyreading1.pdf).
-
 #### Selecting Lines and Forming Candidates
 
 1. **Locate candidate routes:** Match symptom distribution, relevant tissue depth and injury/surgery history to possible lines and nodes. More than one route may be relevant to a region.
-2. **Place them in the task:** Identify limb/segment positions, where load is applied, and whether the task involves pushing, pulling, gripping, hanging or support. Analyze which selected connections could participate under those conditions. In Myers' account, the pectoralis-minor–upper-arm continuity at the coracoid aligns more closely with a tensile route when the arm is near horizontal or higher; configuration is therefore part of the functional question, not just line selection (original text, Chapter 7, Figure 7.5).
+2. **Place them in the task:** Identify limb/segment positions, where load is applied, and whether the task involves pushing, pulling, gripping, hanging, support or rotation. Analyze which selected connections could participate under those conditions; configuration is part of the functional question as well as line selection.
 3. **Reason along the route:** Explore whether activity or tension in one part could alter another node's movement demand, support or loading. Follow proximal or distal connections to useful regions; persistent change after an earlier event can help prioritize a node.
-4. **Compare symptoms:** Look for shared position/load responses or timing across connected regions. Chest pulling, shoulder pain and forearm discomfort may suggest a broader route to explore when their task behavior corresponds; explain the connection to each complaint.
-5. **State the functional candidate:** Describe the selected route, relevant situation and possible effect on the symptom region, such as a chest–arm relationship affecting tension distribution during elevated-arm loading. Identify the next useful region or question through the four-core workflow.
+4. **Compare symptoms:** Look for shared position/load responses or timing across connected regions and explain the proposed connection to each complaint.
+5. **State the functional candidate:** Describe the selected route, relevant situation and possible effect on the symptom region, then identify the next useful region or question through the four-core workflow.
+
+#### Representative Example: Spiral Line in a Turning Task
+
+The following worked example develops one route in context rather than cataloguing all lines. Its anatomical background includes the upper trunk as well as the lower-limb loop. The line has paired relationships and crosses the midline; follow the actual side at each transition when applying it to a person.
+
+- **Upper route:** Splenius capitis/cervicis — posterior cervical midline — contralateral rhomboids — serratus anterior — external oblique — abdominal fascia/linea alba — opposite internal oblique — iliac crest/TFL.
+- **Lower loop and posterior return:** TFL — iliotibial tissues — tibialis anterior — medial cuneiform/first-metatarsal region — fibularis longus — fibular head/biceps femoris — ischial region/sacrotuberous ligament — sacral tissues/spinal extensors toward the skull.
+
+Sources: [Myers' original text, Chapter 6, especially Figures 6.3–6.4 and the lower-leg section](https://f4academy.f4intranet.com/wp-content/uploads/2024/01/TEMA-1-ANATOMIA-Myers-Vias-anatomicas-Meridianos-miofasciales.pdf) and [Myers' dissection account, Figure 4](https://www.anatomytrains.com/wp-content/uploads/2012/07/dissection.pdf). These links describe the framework's anatomical route; the clinical reasoning below applies that map to an illustrative scenario.
+
+1. **Situation and selection:** Suppose a person reports trunk/shoulder-blade pulling and lower-leg discomfort during a planted-foot turn. Rotation with a fixed support foot makes a cross-body trunk–pelvis–foot relationship worth exploring, bringing the Spiral Line into consideration.
+2. **Functional relationship:** Follow the scapular–rib–oblique connections to the pelvis, then the leg/foot loop. Explore how the trunk turns relative to the pelvis, how the supporting foot accommodates the turn, and where movement or tension demands could be redistributed. A perceived restriction at one region can generate a candidate relationship with other participating regions.
+3. **Symptom connection:** Compare whether trunk pulling and lower-leg discomfort arise in the same turn direction, stance or loading condition. The shared behavior could support a common or related load-distribution explanation while each symptom remains trackable.
+4. **Candidate and exploration:** A candidate can state: “The cross-body trunk–pelvis–foot relationship described by the Spiral Line may contribute to the demands of a planted-foot turn and to the reported trunk and lower-leg symptoms.” Clarify the turn direction, support side, heel/foot behavior, symptom timing and relevant history, then select the corresponding trunk, pelvic and leg nodes for assessment.
+
+#### Extending Beyond the Example
+
+Use existing anatomical and movement knowledge with the selection principles above to generate other relevant routes and candidates. For a named line's exact transitions, side changes, branches or attachments, consult [Myers' original text, Chapters 3–9](https://f4academy.f4intranet.com/wp-content/uploads/2024/01/TEMA-1-ANATOMIA-Myers-Vias-anatomicas-Meridianos-miofasciales.pdf) or the region-specific author material, such as [The Arm Lines](https://dl.anatomytrains.com/bodyreading1.pdf). This is route lookup to support reasoning, not a requirement for direct research proving every proposed clinical link. Apply the same connection → function → symptom → exploration reasoning to lines or body regions outside this example.
 
 ### Fascial Manipulation — Luigi Stecco and Collaborators
 
@@ -98,31 +90,7 @@ Source: [Myers, The Arm Lines](https://dl.anatomytrains.com/bodyreading1.pdf).
 - **Myofascial unit:** FM groups muscle fibers and associated fascia by the segment and direction they move. Single-joint and biarticular fibers, fascial continuity and myotendinous expansions link the local unit with other segments.
 - **Directions:** AN (antemotion), RE (retromotion), LA (lateromotion), ME (mediomotion), IR (intrarotation) and ER (extrarotation) describe directional organization. Their anatomical actions depend on the segment.
 
-| Unit | Segment/directional action |
-| --- | --- |
-| AN-SC | Scapular-girdle forward movement |
-| AN-HU | Glenohumeral flexion |
-| AN-CU | Elbow flexion |
-| AN-CA | Wrist flexion |
-| AN-GE | Knee extension |
-
-The knee example shows why the segment/action correspondence matters: AN is not simply a synonym for flexion. See the [Stecco original text's terminology preview](https://img.ibs.it/pdf/9788829928248.pdf).
-
-#### Sequences and Anatomical Links
-
-The upper-limb antemotion sequence connects:
-
-AN-SC — AN-HU — AN-CU — AN-CA — AN-DI
-
-Scapular girdle — shoulder/upper arm — elbow — wrist — fingers
-
-Relevant fascial expansions include:
-
-- Pectoralis major → brachial fascia.
-- Biceps → bicipital aponeurosis → antebrachial fascia.
-- Relevant forearm muscles → antebrachial fascia.
-
-These links support the model's cross-segment tension and coordination reasoning. A sequence is an organization of related units; participation during a particular task is analyzed from the actual segment actions. The [author framework chapter](https://elsevier-elibrary.com/contents/fullcontent/58608/epubcontent_v2/OEBPS/xhtml/B9780702034251000076.htm) describes this sequence and its anatomical basis.
+The segment/action correspondence determines how a direction is interpreted. For example, AN-HU denotes glenohumeral flexion, while AN-GE denotes knee extension. See the [Stecco original text's terminology preview](https://img.ibs.it/pdf/9788829928248.pdf).
 
 #### Choosing the Scale of Organization
 
@@ -147,7 +115,25 @@ These concepts help select regions from functional clues. Subjective analysis ca
 2. **Find shared directional organization:** Corresponding clues during shoulder flexion, elbow flexion and relevant wrist/hand activity can prompt an upper-limb antemotion candidate. Choose other sequences when their actions fit the presentation.
 3. **Select segments:** Use prior injuries, immobilization, surgery and persistent activity changes to select local, proximal, distal and related directional regions for exploration. History is useful here and in Myers' framework.
 4. **Choose the scale:** Develop same-sequence relationships for directional patterns; consider diagonals or spirals when combined-plane or differing segment actions better describe the task.
-5. **Form a shared or single-symptom candidate:** For example, shoulder pain, anterior-elbow pulling and forearm discomfort with corresponding directional/load clues can prompt a cross-segment antemotion hypothesis. Explain how the selected muscle/fascial relationships could participate in each symptom, then identify useful questions and assessment regions.
+5. **Form a shared or single-symptom candidate:** Explain how the selected muscle/fascial relationships could participate in each symptom, then identify useful questions and assessment regions.
+
+#### Representative Example: Upper-Limb Antemotion
+
+This example connects a directional task pattern to specific units, anatomical links and a candidate explanation.
+
+- **Units and actions:** AN-SC (scapular-girdle forward movement) — AN-HU (glenohumeral flexion) — AN-CU (elbow flexion) — AN-CA (wrist flexion) — AN-DI (finger closure in the author's terminology).
+- **Anatomical links:** Pectoralis major → brachial fascia; biceps → bicipital aponeurosis → antebrachial fascia; relevant forearm muscles → antebrachial fascia. These connections help explain the model's cross-segment tension and coordination organization.
+
+Sources: [Stecco's terminology preview](https://img.ibs.it/pdf/9788829928248.pdf) and [author framework chapter, upper-limb antemotion sequence](https://elsevier-elibrary.com/contents/fullcontent/58608/epubcontent_v2/OEBPS/xhtml/B9780702034251000076.htm).
+
+1. **Situation and selection:** Suppose a person reports shoulder pain when lifting the arm forward, anterior-elbow pulling during resisted elbow flexion and forearm discomfort with wrist flexion/gripping. These corresponding directional/load clues make an upper-limb antemotion relationship worth exploring.
+2. **Functional relationship:** Use the actual segment actions to select relevant units from the sequence. The fascial expansions provide possible connections through which local tissue behavior could relate to other segments' adaptation or demands. Prior injury, immobilization or persistent activity changes can help identify useful proximal/distal regions.
+3. **Symptom connection:** Compare the load, timing and direction associated with each complaint. A shared sequence may offer a more complete explanation of the shoulder, elbow and forearm features; identify how each selected unit or connection might participate.
+4. **Candidate and exploration:** A candidate can state: “Directional and load-related clues across the shoulder, elbow and wrist/hand suggest exploring an upper-limb antemotion relationship, including how the connected muscle/fascial tissues adapt during loading.” Clarify the relevant actions and symptom responses; examine selected segments and, when appropriate, incorporate actual CC palpation findings. If combined-plane or opposing segment actions better describe the symptoms, use the organization principles above to explore a diagonal or spiral instead.
+
+#### Extending Beyond the Example
+
+Apply segment → direction → relationship scale → anatomical connection → symptom reasoning to other limbs, trunk or complex tasks. Use existing anatomy/movement knowledge to propose candidates, and consult the [author framework chapter](https://elsevier-elibrary.com/contents/fullcontent/58608/epubcontent_v2/OEBPS/xhtml/B9780702034251000076.htm), [original terminology](https://img.ibs.it/pdf/9788829928248.pdf) and [official course organization](https://fascialmanipulation.com/en/educational/fascial-manipulation-fm-courses/) when exact unit actions, sequence membership or CC/CF locations are needed.
 
 FM's organ-fascial units and apparatus fascial sequences/catenaries extend the model to internal functions, as outlined in the official course description. Select the specific organ/function and connections using the visceral section below. Both frameworks supply anatomical and functional maps; overlapping regions can yield complementary candidate explanations while retaining each map's organization.
 
